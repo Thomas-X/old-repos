@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thomas-X</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="menuicon">
+        <img id="img" src="img/menu.png">
+
+
+    </div>
+
+    <div class="logo">
+
+
+        <img src="img/thomasxlogo.png" alt="logo should be here">
+
+
+    </div>
+
+
+</div>
+
+<!--yeah I copied this, gotta figure it out-->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="http://burtoneducation.appspot.com/login.html">Burton Login</a>
+    <a href="html/truemusic.html">Truemusic</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+    document.querySelector(".menuicon").addEventListener("click", openNav);
+</script>
+
+<div class="wrapper">
+
+
+
+
+
+
+<div class="welcome">
+
+    <h1>Welcome!</h1>
+
+</div>
+
+    <div class="slideShow">
+        <img class="placeHolder" src="img/burton.gif" alt="placeholder">
+        <div class="layer1"></div>
+        <div class="layer2"></div>
+        <div class="layer3"></div>
+    </div>
+</div> <!-- wrapper -->
+</body>
+</html>

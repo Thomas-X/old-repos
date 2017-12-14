@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="thomas_x.educationquiz.MainActivity">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <!--vraag 1-->
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:text="Wat is de mooiste vis?"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question1question"
+
+
+            />
+
+
+
+
+            <Button
+                    android:text="Een vis"
+                    android:onClick="correctAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question1A" android:layout_below="@+id/question1question"
+                    android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+            />
+            <Button
+                    android:text="Een haaivis"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question1B"
+                    android:layout_alignBaseline="@+id/question1A" android:layout_alignBottom="@+id/question1A"
+                    android:layout_toRightOf="@+id/question1A" android:layout_toEndOf="@+id/question1A"/>
+            <Button
+                    android:text="Een saaivis"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question1C"
+                    android:layout_alignBaseline="@+id/question1B" android:layout_alignBottom="@+id/question1B"
+                    android:layout_toRightOf="@+id/question1B" android:layout_toEndOf="@+id/question1B"/>
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question1answer"
+                    android:layout_below="@+id/question1A" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+
+        <!--vraag 2-->
+
+            <TextView
+                    android:text="Wat is de mooiste broodtrommel?"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question2question"
+                    android:layout_below="@+id/question1answer"
+
+            />
+
+
+            <Button
+                    android:text="Een blauwe"
+                    android:onClick="correctAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question2A" android:layout_below="@+id/question2question"
+                    android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+            />
+            <Button
+                    android:text="Een rode"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question2B"
+                    android:layout_alignBaseline="@+id/question2A" android:layout_alignBottom="@+id/question2A"
+                    android:layout_toRightOf="@+id/question2A" android:layout_toEndOf="@+id/question2A"/>
+            <Button
+                    android:text="Alle kleuren!"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question2C"
+                    android:layout_alignBaseline="@+id/question2B" android:layout_alignBottom="@+id/question2B"
+                    android:layout_toRightOf="@+id/question2B" android:layout_toEndOf="@+id/question2B"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question2answer"
+                    android:layout_below="@+id/question2A" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+
+            <!--vraag 3-->
+
+            <TextView
+                android:text="Op wat lopen zebra's?"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/question3question"
+                android:layout_below="@+id/question2answer"
+
+        />
+
+
+            <Button
+                    android:text="Op benen"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question3A" android:layout_below="@+id/question3question"
+                    android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+            />
+            <Button
+                    android:text="Op armen"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question3B"
+                    android:layout_alignBaseline="@+id/question3A" android:layout_alignBottom="@+id/question3A"
+                    android:layout_toRightOf="@+id/question3A" android:layout_toEndOf="@+id/question3A"/>
+            <Button
+                    android:text="Op poten"
+                    android:onClick="correctAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question3C"
+                    android:layout_alignBaseline="@+id/question3B" android:layout_alignBottom="@+id/question3B"
+                    android:layout_toRightOf="@+id/question3B" android:layout_toEndOf="@+id/question3B"/>
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question3answer"
+                    android:layout_below="@+id/question3A" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+
+            <!--vraag 4-->
+
+            <TextView
+                    android:text="Hoe start een laptop op?"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question4question"
+                    android:layout_below="@+id/question3answer"
+
+            />
+
+
+            <Button
+                    android:text="Elektriciteit"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question4A" android:layout_below="@+id/question4question"
+                    android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+            />
+            <Button
+                    android:text="Aan knop"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question4B"
+                    android:layout_alignBaseline="@+id/question4A" android:layout_alignBottom="@+id/question4A"
+                    android:layout_toRightOf="@+id/question4A" android:layout_toEndOf="@+id/question4A"/>
+            <Button
+                    android:text="beide"
+                    android:onClick="correctAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question4C"
+                    android:layout_alignBaseline="@+id/question4B" android:layout_alignBottom="@+id/question4B"
+                    android:layout_toRightOf="@+id/question4B" android:layout_toEndOf="@+id/question4B"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question4answer"
+                    android:layout_below="@+id/question4A" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+
+
+            <!--vraag 5-->
+
+            <TextView
+                    android:text="Wat vult het meest?"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question5question"
+                    android:layout_below="@+id/question4answer"
+
+            />
+
+
+            <Button
+                    android:text="Snert"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question5A" android:layout_below="@+id/question5question"
+                    android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+            />
+            <Button
+                    android:text="Groente Smoothie"
+                    android:onClick="wrongAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question5B"
+                    android:layout_alignBaseline="@+id/question5A" android:layout_alignBottom="@+id/question5A"
+                    android:layout_toRightOf="@+id/question5A" android:layout_toEndOf="@+id/question5A"/>
+
+            <Button
+                    android:text="Alles als je er genoeg van eet"
+                    android:onClick="correctAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question5C"
+                    android:layout_below="@+id/question5A"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/question5answer"
+                    android:layout_below="@+id/question5C" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/rootContainer">
+
+
+
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgHeaderContainer"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:id="@+id/imageBig"
+
+                        android:contentDescription="img"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14pt"
+                        android:background="@drawable/gradient"
+                        android:textColor="@color/headerTitle"
+                        android:paddingLeft="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:id="@+id/titleHeader"/>
+            </RelativeLayout>
+
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:id="@+id/textContainer">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shortText"
+            />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="48dp">
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/cardButtonText"
+                    android:textColor="@color/buttonColour"
+                    android:textSize="14sp"
+                    android:drawSelectorOnTop="true"
+                    android:background="#00ffffff"
+                    android:padding="10dp"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_alignParentRight="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/readMoreButton"></Button>
+        </RelativeLayout>
+
+</LinearLayout>

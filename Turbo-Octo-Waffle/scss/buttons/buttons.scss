@@ -1,0 +1,223 @@
+//(for now) unused variable
+$color1: #ffffff;
+//used for the text for all buttons
+$color2: #29ff21;
+
+.btn {
+
+  background-color: #ffffff;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 3px;
+  border: 1px solid #0a1209;
+  display: inline-block;
+  cursor: pointer;
+  color: #0a1209;
+  font-size: 17px;
+  font-family:Ubuntu;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #dedede;
+
+  //Primary button stuff, modifiers
+  &.is-primary {
+    transition: 200ms;
+    background-color: #c774c4;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #b96bb6;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ad61aa;
+  }
+  &.is-primary:hover {
+    transition: 200ms;
+    background: #b469b1 100px;
+  }
+
+  //Success button stuff, modifiers
+
+  &.is-success {
+    background-color: #44c767;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+
+    &:hover {
+      transition: 100ms;
+      background: #3aba6b 100px;
+    }
+  }
+  //Warning button stuff, modifiers
+  &.is-warning {
+    background-color: #e67e22;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #bf6121;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c76a1f;
+    &:hover {
+      transition: 100ms;
+      background: #de8c27 100px;
+    }
+  }
+
+
+  //Danger button stuff, modifiers
+  &.is-danger {
+    background-color: #e74c3c;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #c44b3b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b93d30;
+    &:hover {
+      transition: 100ms;
+      background: #e13a2b 100px;
+    }
+  }
+
+  //Info button stuff, modifiers
+  &.is-info {
+    background-color: #3498db;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #3380bf;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2d77ae;
+    &:hover {
+      transition: 100ms;
+      background: #368ece 100px;
+    }
+  }
+
+  //Size modifiers
+  &.is-xsmall {
+    padding: 8px 17px;
+  }
+  &.is-small {
+    padding: 12px 25px;
+  }
+  &.is-normal { //for the the tidy-code kind off people.
+    padding: 16px 31px;
+  }
+  &.is-medium {
+    padding: 20px 37px;
+  }
+  &.is-large {
+    padding: 24px 45px;
+  }
+
+
+  //Font modifiers
+
+  //For Ubuntu
+  &.is-ubuntu {
+    font-family: Ubuntu;
+  }
+  &.is-ubuntubold {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-style: normal
+  }
+  &.is-ubuntuitalic {
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-style: italic;
+  }
+  &.is-ubuntubolditalic {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  //For Open Sans
+
+  &.is-opensans {
+    font-family: Opensans;
+  }
+  &.is-opensansbold {
+    font-family: Opensans;
+    font-weight: bold;
+    font-style: normal;
+  }
+  &.is-opensansitalic {
+    font-family: Opensans;
+    font-weight: normal;
+    font-style: italic;
+  }
+  &.is-opensansbolditalic {
+    font-family: Opensans;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  //For League Gothic
+  &.is-leaguegothic {
+    font-family: Leaguegothic;
+  }
+  &.is-leaguegothicbold {
+    font-family: Leaguegothic;
+    font-weight: bold;
+    font-style: normal;
+  }
+  &.is-leaguegothicitalic {
+    font-family: Leaguegothic;
+    font-weight: normal;
+    font-style: italic;
+  }
+  &.is-leaguegothicbolditalic {
+    font-family: Leaguegothic;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+//declaring fonts with @font-face
+  @font-face {
+    font-family: Ubuntu;
+    //IGNORE THIS ERROR
+    src: url('../fonts/Ubuntu-regular.ttf') format('truetype'); //for CSS, this dir works IGNORE THIS ERROR
+    //IGNORE THIS ERROR
+
+  }
+  @font-face {
+    font-family: Opensans;
+    //IGNORE THIS ERROR
+    src: url('../fonts/Opensans-regular.ttf') format('truetype'); //for CSS, this dir works
+    //IGNORE THIS ERROR
+
+  }
+  @font-face {
+    font-family: "Leaguegothic";
+    //IGNORE THIS ERROR
+    src: url('../fonts/Leaguegothic-regular.ttf') format('truetype'); //for CSS, this dir works
+    //IGNORE THIS ERROR
+  }

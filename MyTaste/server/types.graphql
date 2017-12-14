@@ -1,0 +1,42 @@
+# A dish example:
+# name: Pompoensoep
+# description: Heerlijke pompoensoep, bereidingswijze: bla bla
+# spoilDays: 4 -- amount of days till this dish is good
+# season: zomer-herfst or zomer or herfst or altijd etc.. (some deep learning stuff would be awesome here)
+# preparationTime: time to prepare i.e 1h20m
+# lists: all the lists containing this dish
+# category: the category of the dish
+type Dish @model {
+    id: ID! @isUnique
+    name: String!
+    description: String!
+    spoilDays: Int!
+    season: String!
+    preparationTime: String!
+    lists: [List!]! @relation(name: "DishList")
+    category: Category! @relation(name: "DishCategory")
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}
+
+# A category that could contain many dishes, i.e
+# name: thai
+# dishes: the dishes that are in said category
+type Category @model {
+    id: ID! @isUnique
+    name: String!
+    dishes: [Dish!]! @relation(name: "DishCategory")
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}
+
+# A list, example:
+# dishes: Array of 7 dishes or what many days were selected
+# name: the list name, i.e the dates spanning from when it was created and then + the amount of dishes in days
+type List @model {
+    id: ID! @isUnique
+    dishes: [Dish!]! @relation(name: "DishList")
+    name: String!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}

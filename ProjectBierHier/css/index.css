@@ -1,0 +1,385 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;;
+}
+
+body {
+    background-image: url('../img/skyline.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 86px;
+    z-index: 9998;
+    margin: 0;
+
+}
+
+div#wrapper {
+    width: 1000px;
+
+}
+
+/*ALL OF THIS IS NAV BAR*/
+
+div.nav {
+    min-width: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    /*#feffff*/
+    padding: 16px;
+    height: 86px;
+    width: 100%;
+    /*-webkit-box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+    /*-moz-box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+    /*box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+
+}
+div.nav img.logo {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+
+}
+
+div.nav #img  {
+    transition: .8s;
+
+    visibility: visible;
+    overflow:visible;
+    float:right;
+    position: relative;
+    top:0;
+    margin-right:24px;
+    margin-top:13px;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    /*padding-top: 27px;*/
+    /*padding-bottom: 27px;*/
+    /*padding: 27px 5% 27px 5%;*/
+    height:28px;
+    width:28px;
+    z-index:999999;
+    /*overflow:visible;*/
+}
+
+div.nav #img:hover {
+    transition: .3s;
+    padding-left:1px;
+    padding-right:1px;
+    opacity:0.7;
+
+}
+
+a.redirect {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    left: 10%;
+    text-decoration:none;
+    transform: translateX(-50%);
+}
+
+a.logotext {
+    text-decoration:none;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 13.5%;
+    top: 6px;
+    transform: translateX(-50%);
+    /*-webkit-animation: tada 0.95s;*/
+    /*animation: tada 0.95s;*/
+    /*ANIMATE.CSS is doing weird.*/
+}
+
+div.nav a.contact, a.overons, a.recepten, a.sport, a.concerten {
+    transition: .6s;
+    margin-right: -4px;
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: -70px;
+    /*color: #9aa5a8;*/
+    float: right;
+    right:32%;
+
+}
+
+div.nav a.contact:hover, a.overons:hover, a.recepten:hover, a.sport:hover, a.concerten:hover {
+    transition: .6s;
+    color: #f45616;
+
+}
+
+div.nav a.sport {
+    right:48%;
+}
+
+div.nav a.contact, a.concerten {
+    right:34%;
+}
+
+div.nav a.concerten {
+    right:22%;
+    top:-74px;
+    z-index: 123897129837;
+}
+
+.sidenav {
+    transition:300ms linear;
+    height:260px;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top:86px;
+    left: 0;
+    background-color:#737373;
+    overflox-x: hidden; <!--???-->
+    transition: 0.5s;
+    padding-top:86px;
+}
+
+.sidenav a {
+    position:relative;
+    transition:150ms linear;
+    top: -70px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #dce9de;
+    display: block;
+    transition: 0.3s;
+}
+
+/*^^NAV BAR IS ABOVE^^*/
+
+/**SLIDER**/
+@keyframes layer2Anim {
+    0% {
+        opacity: 0;
+    }
+    17% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    67% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes layer3Anim {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    67% {
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.slideShow {
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+    position: relative
+    /*box-shadow: ;*/
+}
+
+div.center {
+    font-family:'Ubuntu', cursive;
+    position: relative;
+    margin: 0 auto;
+    /*left:27%;*/
+    top:211px;
+
+    font-size:75px;
+    text-align:center;
+    z-index:10;
+    color:#feffff;
+}
+
+.placeHolder {
+    width: 100%;
+    visibility: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.layer1, .layer2, .layer3 {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 86px;
+    left: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-filter: brightness(25%);
+    z-index: 10;
+
+}
+
+.layer1 {
+    background-image: url("../img/almereskyline.jpg");
+
+}
+
+.layer2 {
+    background-image: url("../img/kasteelalmere.jpg");
+
+    animation: layer2Anim 25s infinite;
+
+}
+
+.layer3 {
+    background-image: url("../img/ziekenhuisalmere.jpg");
+
+    animation: layer3Anim 25s infinite;
+
+
+
+}
+
+div.buttonCyan1 {
+    transition: .8s;
+    font-family: 'Ubuntu';
+    color:white;
+    border: 1px solid #424242;
+    background-color: #00aaaa;
+    padding:10px;
+
+    width:154px;
+    font-size:20px;
+    margin: 0 auto;
+    margin-left:35%;
+    margin-top:60px;
+    left:50px;
+
+}
+
+div.buttonCyan1:hover {
+    transition: .8s;
+    font-family: 'Ubuntu';
+    color:cyan;
+    border: 1px solid cyan;
+    background-color:transparent;
+
+}
+
+div.buttonCyan2 {
+    transition: .8s;
+    font-family: 'Ubuntu';
+    padding:10px;
+    color:cyan;
+    border: 1px solid cyan;
+    width:154px;
+    font-size:20px;
+    margin: 0 auto;
+    margin-left:53%;
+    margin-top:-46px;
+    left:50px;
+
+}
+
+div.buttonCyan2:hover {
+    transition: .8s;
+    font-family: 'Ubuntu';
+    color:white;
+    border: 1px solid #424242;
+    background-color: #00aaaa;
+
+
+}
+
+#style1 {
+    animation: rotateUpLeft 0.95s;
+    -webkit-animation: rotateUpLeft 0.95s;
+}
+
+#style2 {
+    animation: rotateInUpRight 0.95s;
+    -webkit-animation: rotateInUpRight 0.95s;
+}
+
+div#wrapper3 {
+    height: 108px;
+    width: 100%;
+    background-color: #475577;
+    font-family: 'Ubuntu', cursive;
+    padding: 20px;
+    top:886px;
+    position:absolute
+
+    /*text-align: center;*/
+}
+
+div.wrapper4 {
+    position: relative;
+    top: -994px;
+    width:100%;
+    margin: auto;
+    background-color: #444142;
+    height: 300px;
+    z-index:123123123;
+}
+
+div.feedcontainer {
+    width:75%;
+    position: relative;
+    background-color: rgba(68,65,66, 0.6);
+    margin: auto;
+    top: 86px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+div.feedchild1, .feedchild2, .feedchild3 {
+    margin: 15px;
+}
+footer {
+    position: relative;
+    top:86px;
+    width: 75%;
+    margin: auto;
+    background-color: gray;
+    padding-left:2%;
+    padding:30px;
+    font-family: 'Ubuntu', cursive;
+}
+
+div.sitel {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.footer a {
+    display: block;
+    line-height: 140%;
+}

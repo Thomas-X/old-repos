@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hardschock festival festival</title>
+    <link rel="stylesheet" type="text/css" href="css/concertendetailmaster.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+<div class="nav">
+    <!--MADE BY THOMAS ZWARTS & BARRY WILLEMS-->
+    <div id="imganimation">
+        <img id="img" src="../../img/menu.png" class="menuicon" onclick="openorcloseNav()" alt="ditiseenalt"/>
+    </div>
+    <script>
+        var toggle = 1;
+
+        function openorcloseNav() {
+            if (toggle == 1) {
+
+                document.getElementById("sideNav").style.width = "250px";
+                toggle = 0;
+            }
+            else {
+
+                document.getElementById("sideNav").style.width = "0";
+
+
+                toggle = 1;
+            }
+        }
+
+
+    </script>
+
+    <!--Logo dingen, tekst enzo -->
+
+    <a class="redirect" href="../../index.html">
+        <img class="logo" src="../../img/beertitle.png"
+             alt="logo should be here"/>
+    </a>
+
+    <!--document.getElementById('imganimation').setAttribute("class", "style1")-->
+    <a href="../../index.html" class="logotext">BIER HIER</a>
+
+
+    <!--SIDE NAV-->
+    <div id="sideNav" class="sidenav">
+        <a href="../../pagina/contact/contact.html" class="contact">CONTACT</a>
+        <a href="../../pagina/overons/overons.html" class="overons">OVER ONS</a>
+        <a href="../../pagina/recepten/recepten.html" class="recepten">RECEPTEN</a>
+        <a href="../../pagina/sport/sport.html" class="sport">SPORT</a>
+        <a href="../../pagina/concerten/concerten.html" class="concerten">CONCERTEN</a>
+    </div>
+
+</div>
+
+<div class="wrapper">
+
+    <div class="tekstfestival">
+        <a>Festival van Hardschock</a>
+    </div>
+
+
+    <div class="images">
+        <img class="festival11" src="img/festival1.1.jpg" alt="ditiseenalt">
+        <img class="festival12" src="img/festival2.jpg" alt="ditiseenalt">
+    </div>
+    <div class="flex-container">
+        <article class="flex1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis volutpat magna, consectetur
+            hendrerit libero interdum eget.
+            Integer varius dignissim posuere. <br>Donec felis dolor, condimentum eget semper<br> et, gravida nec tortor.
+            Quisque sodales ipsum urna, vel di
+            ctum orci malesuada nec. Vivamus id e<br>rat nibh. Nulla tincidunt consectetur ante vitae interdum. S
+            ed tristique augue risus. Aenean nec lobortis ligula. Phase<br>llus vestibulum ipsum eget lac<br>us
+            accumsan, in ultrices dolor blandit.
+            <iframe class="festival13" style="min-width: 480px;max-width:640px;min-height:256px;max-height:512px;"
+                    width="640px" height="480px" src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+        </article>
+
+        <article class="flex2">
+            Lorem ipsum dolor sit amet, cons<br>ectetur adipiscing elit. Praesent venenatis volutpat magna<br>,
+            consectetur hendrerit libero interdum eget.
+            Integer varius dignissim posuere. Donec felis dolor, condimentum eg<br>et semper et, gravida nec tortor.
+            Quisque sodales ipsum urna, vel di
+            ctum orci malesuada nec. Vivamus id erat n<br>ibh. Nulla tincidunt consectetur ante vitae interdum. S
+            ed tristique augue risus. Aenean nec lobortis ligula. Phasellus vestibulum <br>ipsum eget lacus accumsan, in
+            ultrices dolor blandit.
+        </article>
+    </div>
+
+    <div class="flex-container2"> <!-- oh god IK HOU VAN FLEXBOX -->
+
+        <div onclick="openflex()" id="flex-item1">
+            <a id="flex-itemtekst2"></a>
+        </div>
+
+        <img onclick="ref1()" id="flex-item2" src="img/festival1.jpg" style="cursor:pointer;" alt="ditiseenalt">
+        <img onclick="ref2()" id="flex-item3" src="img/festival3.jpg" style="cursor:pointer;" alt="ditiseenalt">
+        <img onclick="ref3()" id="flex-item4" src="img/festival4.jpg" style="cursor:pointer;" alt="ditiseenalt">
+        <img style="cursor:pointer;" onclick="ref4()" id="flex-item5" src="img/home.png" alt="ditiseenalt">
+        <script>
+            function ref1() {
+                window.location.href = "concertendetail1.html"
+            }
+            function ref2() {
+                window.location.href = "concertendetail3.html"
+            }
+            function ref3() {
+                window.location.href = "concertendetail4.html"
+            }
+            function ref4() {
+                window.location.href = "concerten.html"
+            }
+            function openflex() {
+                if (toggle == 1) {
+                    document.getElementById("flex-item1").style.backgroundColor = "#FBA924";
+                    document.getElementById("flex-item2").style.width = "18%";
+                    document.getElementById("flex-item3").style.width = "18%";
+                    document.getElementById("flex-item4").style.width = "18%";
+                    document.getElementById("flex-item5").style.width = "18%";
+                    toggle = 0;
+                }
+                else {
+                    document.getElementById("flex-item1").style.backgroundColor = "#ccd9ce";
+                    document.getElementById("flex-item2").style.width = "0%";
+                    document.getElementById("flex-item3").style.width = "0%";
+                    document.getElementById("flex-item4").style.width = "0%";
+                    document.getElementById("flex-item5").style.width = "0%";
+
+
+                    toggle = 1;
+                }
+            }
+        </script>
+
+
+    </div>
+
+</div> <!-- wrapper -->
+<footer>
+    <div class="sitel">
+        Site links
+    </div>
+    <div class="footer">
+        <a href="../../index.html">Home Page</a>
+        <a href="../contact/contact.html">Contact</a>
+        <a href="../overons/overons.html">Over ons</a>
+        <a href="../recepten/recepten.html">Recepten</a>
+        <a href="../sport/sport.html">Sport</a>
+        Copyright &copy; ROC Flevoland 2016<br>
+        <a class="love"><br>Made with ❤ by Thomas-X</a>
+    </div>
+</footer>
+
+</body>
+</html>

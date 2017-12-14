@@ -1,0 +1,31 @@
+{
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+        "test": "node ./node_modules/jest/bin/jest.js --watch"
+    },
+    "jest": {
+        "preset": "jest-expo"
+    },
+    "dependencies": {
+        "apollo-cache-inmemory": "^1.1.0",
+        "apollo-client": "^2.0.2",
+        "apollo-link-http": "^1.1.0",
+        "expo": "^22.0.0",
+        "graphql": "^0.11.7",
+        "graphql-tag": "^2.5.0",
+        "react": "16.0.0-beta.5",
+        "react-apollo": "^2.0.1",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.2.tar.gz",
+        "react-navigation": "^1.0.0-beta.17",
+        "styled-components": "^2.2.3"
+    },
+    "devDependencies": {
+        "flow-bin": "0.53.0",
+        "jest-expo": "^22.0.0"
+    },
+    "name": "my-new-project",
+    "version": "0.0.0",
+    "description": "Hello Expo!",
+    "author": null
+}

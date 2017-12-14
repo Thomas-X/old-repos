@@ -1,2 +1,2 @@
 # old-repos
-A collection of my old git repos that I don't want to remove so I keep 'em snug in this repo to play around with eachother.
+This is a collection of old repos that I don't intend on updating but I don't want to delete 

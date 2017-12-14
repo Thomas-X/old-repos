@@ -1,0 +1,24 @@
+{{# each productsName }}
+    <div class="row">
+        {{# each this}}
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="{{ this.imagePath }}" alt="kitten" class="image-responsive">
+                    <div class="caption">
+                        <h3>{{ this.title}}</h3>
+                        <p>{{ this.description}}</p>
+
+                        <!--fixes float issues of button, setting all floats of all objects in the div to the same float so they'r
+                        not messed up
+                        -->
+                        <div class="clearfix">
+                            <div class="price pull-left">${{ this.price}}</div>
+                            <a href="#" class="btn btn-success pull-right"
+                               role="button">Add to Shopping Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+{{/each}}

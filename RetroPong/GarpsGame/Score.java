@@ -1,0 +1,23 @@
+import greenfoot.*;
+import greenfoot.GreenfootImage;
+import greenfoot.Actor;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Dimension;
+
+public class Score extends Actor {
+
+	public void act() {
+
+	} 
+
+	public Dimension getTextDimensions(GreenfootImage image, String tekst) {
+		int height, width;
+		Font font;
+		font = image.getFont();
+		FontMetrics metrics = image.getAwtImage().getGraphics().getFontMetrics(font); 
+		width = metrics.stringWidth(tekst);
+		height = metrics.getLeading() + metrics.getAscent() + metrics.getDescent();
+		return new Dimension(width, height);   
+	}
+}

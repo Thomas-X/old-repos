@@ -1,0 +1,140 @@
+html {
+}
+body {
+    margin: 0;
+    background-image:url('http://lorempixel.com/1920/1080/food/');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#githubicon {
+    transition: 300ms;
+}
+
+#githubicon:hover {
+    transition: 300ms;
+    color: #161619 !important;
+}
+#redline {
+    border-top: 2px solid #161619;
+}
+
+#navcolor {
+    background-color: #222329;
+}
+
+.nav-item.is-noactive {
+    background-color:#fffbeb;
+    transition: 300ms;
+    color: #161619;
+    border-bottom:none ;
+    font-weight:bold;
+}
+.nav-item.is-noactive:hover {
+    transition: 300ms;
+    color:deeppink;
+    border-bottom:2px #161619 solid;
+}
+.nav-item.is-yesactive {
+    transition: 300ms;
+    color: #fffbeb;
+    border-bottom:none;
+}
+.nav-item.is-yesactive:hover {
+    transition: 300ms;
+    color:deeppink;
+    border-bottom:none;
+}
+@media screen and (min-width:768px) {
+    .nav-item.is-yesactive {
+        border-bottom:none !important;
+    }
+    .nav-item.is-yesactive:hover {
+        border-bottom: 2px #161619 solid !important;
+    }
+}
+
+.nav {
+    height: 75px;
+    background-color: #222329;
+}
+
+#nav-toggle {
+    align-self: center;
+    padding-top: 75px;
+    background-color:#222329;
+}
+
+.nav-toggle span {
+    transition: 300ms;
+    background-color: white !important;
+}
+
+.nav-toggle:hover span {
+    transition: 300ms;
+    background-color: #161619 !important;
+}
+
+.nav-toggle.is-active:hover span {
+    transition: 300ms;
+    background-color: #161619 !important;
+}
+
+.nav-toggle:hover {
+    transition: 300ms;
+    background-color: whitesmoke !important;
+}
+
+.nav-toggle.is-active span {
+    transition: 300ms;
+    background-color: whitesmoke !important;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        background-color: #222329 !important;
+    }
+
+}
+
+#logoezskins {
+    /*width: 144px;*/
+    height: 51px;
+}
+
+.nav-item img {
+    max-height: 51px !important;
+}
+
+#navcolor {
+    background-color: #222329;
+}
+#shoppingCart {
+    cursor:pointer;
+    transition:300ms;
+    padding:20px;
+    color:#161619;
+    background-color:#fffbeb;
+}
+#shoppingCart:hover {
+    cursor:pointer;
+    transition:300ms;
+    color:#fffbeb;
+    background-color:#222329;
+}
+
+.fa-shopping-cart:hover:before {
+    font-size:15px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    content: "Go to checkout";
+}
+.wrapper {
+    width:65%;
+    margin:auto;
+    background-color: #d6d6d6;
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}

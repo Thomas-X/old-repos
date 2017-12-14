@@ -1,0 +1,16 @@
+
+#box2 {
+    margin-right:150px;
+    margin-bottom:0;
+}
+@media screen and (max-width:1003px) {
+    #box2 {
+        margin-right:0px;
+    }
+    .wrapper {
+        flex-wrap:wrap;
+    }
+}
+.wrapper {
+    justify-content: flex-start;
+}

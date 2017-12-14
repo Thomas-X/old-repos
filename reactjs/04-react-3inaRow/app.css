@@ -1,0 +1,10 @@
+.TopRowItem {
+    width:15px;
+    height:15px;
+    background-color:black;
+}
+
+.TopRowItem:hover {
+    transition: background-color 300ms ease;
+    background-color:green;
+}

@@ -1,0 +1,10 @@
+timer reset wanneer user
+volgende key typt (dus boolean
+isTyping op false en een autosave
+naar DB doen.)
+dus als user dan binnen bijv. 3 sec 
+niet typt dan wordt er ge autosaved
+als failsafe sinds er veel achterelkaar 
+getypt kan worden om de X amount karakters 
+autosave (zoals er nu is maar dan met meer
+max)

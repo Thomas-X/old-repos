@@ -1,0 +1,30 @@
+{
+  "name": "05-nodejs-templategenerator",
+  "version": "1.0.0",
+  "description": "generates a html template I need for my portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-X/nodejs.git"
+  },
+  "keywords": [
+    "template",
+    "generator"
+  ],
+  "author": "Thomas-X",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-X/nodejs/issues"
+  },
+  "homepage": "https://github.com/Thomas-X/nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.9.1",
+    "request": "^2.81.0"
+  }
+}

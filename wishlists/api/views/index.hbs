@@ -1,0 +1,51 @@
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                Verlanglijstjes
+            </a>
+        </div>
+        {{#if loggedIn}}
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Hi, {{username}}</a></li>
+                <li><a id="stupidLogin" href="/logout">Logout</a></li>
+            </ul>
+        {{else}}
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a id="stupidLogin" href="/login">Login</a>
+                </li>
+            </ul>
+        {{/if}}
+    </div>
+</nav>
+
+{{#if loggedIn}}
+
+
+    <div class="flexContainer">
+        {{#each wishlists}}
+            <div class="card" style="width: 20rem; margin:10px;">
+                <div class="card-block">
+                    <h4 class="card-title">{{this.author}}'s verlanglijstje</h4>
+                    <p class="card-text">Klik op de knop om dingen toe te voegen aan {{this.author}}'s
+                        verlanglijstje</p>
+                    <a href="/verlanglijstjes/{{this.author}}" class="btn btn-primary">Ga naar verlanglijstje</a>
+                </div>
+            </div>
+
+        {{/each}}
+    </div>
+
+
+{{else}}
+    <div class="jumbotron">
+        <h1>Verlanglijstjes site</h1>
+        <p>Deze site is om cadeaus aan verlanglijstjes toe te voegen, maar niet die van jezelf. Op deze manier zijn er
+            geen dubbele cadeaus, dus geen huilende mensen, profit.</p>
+
+        <a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+    </div>
+
+
+{{/if}}

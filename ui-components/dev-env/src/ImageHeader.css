@@ -1,0 +1,86 @@
+.ImageHeaderContainer {
+  display: flex;
+  height: 80vh;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+  position: relative; }
+
+.ImageHeaderImageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.ImageHeaderFirstImage {
+  width: 60vw;
+  opacity: 0.2; }
+
+.ImageheaderSecondImage {
+  width: 100%;
+  height: 50%;
+  opacity: 0.2; }
+
+.ImageHeaderThirdImage {
+  width: 100%;
+  height: 50%;
+  opacity: 0.2; }
+
+.ImageHeaderTextContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.ImageHeaderTextTitle {
+  font-size: 5em;
+  color: white; }
+
+.ImageHeaderTextTitleContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ImageHeaderTextSubTitleContainer {
+  width: 300px;
+  color: #b3b3b3; }
+
+@media (max-width: 1078px) {
+  .ImageHeaderContainer {
+    flex-direction: column; }
+
+  .ImageHeaderImageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%; }
+
+  .ImageHeaderFirstImage {
+    width: 100%;
+    height: 60%; }
+
+  .ImageheaderSecondImage {
+    width: 50%;
+    height: 100%; }
+
+  .ImageHeaderThirdImage {
+    width: 50%;
+    height: 100%; } }
+@media (max-width: 412px) {
+  .ImageHeaderImageContainer {
+    flex-direction: column; }
+
+  .ImageheaderSecondImage {
+    width: 100%;
+    height: 50%; }
+
+  .ImageHeaderThirdImage {
+    width: 100%;
+    height: 50%; }
+
+  .ImageHeaderFirstImage {
+    height: 60%; } }
+
+/*# sourceMappingURL=ImageHeader.css.map */

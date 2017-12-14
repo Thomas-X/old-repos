@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="flowershop@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="flowershop">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="ezskins"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="sys"/>
+    <schema id="8" parent="1" name="testing"/>
+    <table id="9" parent="2" name="boeketten"/>
+    <table id="10" parent="2" name="user"/>
+    <column id="11" parent="9" name="idboeketten">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="12" parent="9" name="idgebruiker">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="13" parent="9" name="naam">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="14" parent="9" name="prijs">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="15" parent="9" name="boeketurl">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="16" parent="9" name="bloemsoortenboeket">
+      <Position>6</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <index id="17" parent="9" name="fk_boeketten_user_idx">
+      <ColNames>idgebruiker</ColNames>
+    </index>
+    <key id="18" parent="9" name="PRIMARY">
+      <ColNames>idboeketten</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="19" parent="9" name="fk_boeketten_user">
+      <ColNames>idgebruiker</ColNames>
+      <RefSchemaName>flowershop</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>idgebruiker</RefColNames>
+      <OnUpdate>no-action</OnUpdate>
+      <OnDelete>no-action</OnDelete>
+    </foreign-key>
+    <column id="20" parent="10" name="idgebruiker">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="10" name="voornaam">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="22" parent="10" name="tussenvoegsel">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="23" parent="10" name="achternaam">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="24" parent="10" name="loginnaam">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="25" parent="10" name="password">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="26" parent="10" name="PRIMARY">
+      <ColNames>idgebruiker</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

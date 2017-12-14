@@ -1,0 +1,104 @@
+.NavbarContainer {
+  width: 100%;
+  background: transparent;
+  z-index: 10;
+  height: 60px; }
+
+.NavbarGradientContainer {
+  height: 90px;
+  background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.4), transparent); }
+
+.NavbarBorderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  border-bottom: 1px solid white; }
+
+.NavbarBrandName {
+  font-weight: 500;
+  color: white;
+  font-size: 1.5em;
+  line-height: 33px;
+  cursor: pointer; }
+
+.NavbarLeftItem, .NavbarRightItem {
+  color: white;
+  align-self: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  line-height: 30px;
+  padding-top: 3px; }
+
+.NavbarLeftItem:after, .NavbarRightItem:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px white;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out; }
+
+.NavbarLeftItem:hover:after, .NavbarRightItem:hover:after {
+  transform: scaleX(1); }
+
+.hamburger {
+  display: none; }
+
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+  background-color: white; }
+
+.hidden {
+  display: none; }
+
+.NavbarHamburgerContainer {
+  display: none; }
+
+.NavbarHambugerLeftItemCollapsed, .NavbarHambugerRightItemCollapsed {
+  padding: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  background-color: #333333; }
+
+.NavbarHambugerLeftItemCollapsed:hover, .NavbarHambugerRightItemCollapsed:hover {
+  transition: all 300ms;
+  background-color: #1a1a1a; }
+
+.NavbarFixed {
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+@media (max-width: 640px) {
+  .NavbarLeftItem, .NavbarRightItem {
+    display: none; }
+
+  .NavbarBorderContainer {
+    justify-content: space-between;
+    border-bottom: none;
+    width: 95%; }
+
+  .NavbarContainer {
+    border-bottom: 1px solid white; }
+
+  .hamburger {
+    display: block; }
+
+  .NavbarHamburgerContainer {
+    transition: 300ms all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadein 500ms; }
+
+  @keyframes fadein {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } } }
+
+/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,145 @@
+#navbar {
+    margin-bottom: 0px;
+    background-image: none;
+    border-radius: 0px;
+    background-image: -moz-linear-gradient(top, #333333, #222222);
+    background-image: -ms-linear-gradient(top, #333333, #222222);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
+    background-image: -webkit-linear-gradient(top, #333333, #222222);
+    background-image: -o-linear-gradient(top, #333333, #222222);
+    background-image: linear-gradient(top, #333333, #222222);
+}
+
+.col-md-4 {
+
+}
+
+#skatesCart {
+    width: 128px;
+    height: 128px;
+    margin-right: 20px
+
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 55%;
+    float: left;
+    min-width: 506px;
+    max-width: 506px;
+
+}
+
+#input1, #input2, #input3 {
+    width: 58px;
+}
+
+.flex-item {
+    padding-right: 10px;
+    width: 45%;
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 51%;
+    float:left;
+}
+
+#totalCart {
+    padding-left: 20px;
+}
+
+.jumbotron {
+    background-image: url("../img/nl_head.jpg");
+    background-size: 100% 100%;
+}
+
+#headerJumbotron, #subTextJumbotron {
+    color: white;
+}
+
+/*font family only for body since everything is in the body anyway*/
+body {
+    font-family: 'Eczar', serif;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.row {
+
+}
+
+#specialBackground {
+    background-color: #f0f0f0;
+}
+
+.btn.btn-primary {
+    margin-bottom: 15px;
+}
+
+h1, h2, h3 {
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+body, p, a {
+    font-weight: 400;
+}
+
+.goRight {
+    float: right
+}
+
+.cartContainer {
+    width: 28%;
+    float: left;
+    min-width: 324px;
+    min-height: 128px;
+    /*height:168px;*/
+}
+
+hr {
+    float: left;
+    border-top: 2px solid #eee;
+    width: 100%;
+}
+
+#safetyPackaging, #quickDelivery, #safetyP, #quickP {
+    float: left;
+}
+
+#safetyP {
+    width: 98%;
+}
+
+#radio1, #radio2, #radio3, #radio4 {
+    float: left;
+}
+
+.radioContainer {
+    width: 100%;
+    float:left;
+    display:flex;
+    justify-content: flex-start;
+}
+#textFrame {
+    align-self:center;
+}
+#imgCart {
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+}
+#footerFloat {
+    float:left;
+    width:100%;
+}
+h3 {
+    float:left;
+}

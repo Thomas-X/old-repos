@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimaryDark2"
+
+        android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rootContainer">
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imgHeaderContainer"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imageBig"
+                    android:contentDescription="img"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/gradient"
+                    android:textColor="@color/headerTitle"
+                    android:paddingLeft="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/titleHeader"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:id="@+id/textContainer">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/shortText"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/textCardColour"
+            />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="48dp" android:paddingRight="15dp">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author"
+                    android:text="ASDASDSADASD"
+                    android:textSize="12sp"
+                    android:textColor="@color/textCardColour"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/publishedAt"
+                    android:textColor="@color/textCardColour"
+                    android:textSize="12sp"
+                    android:layout_toLeftOf="@+id/author"
+                    android:text="ASDASDDSAD"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="10dp"
+
+            />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

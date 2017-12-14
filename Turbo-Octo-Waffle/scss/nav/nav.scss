@@ -1,0 +1,276 @@
+$color1: #f5f5f5;
+
+//flex container
+.nav {
+  width: 100%;
+  background-color: $color1;
+
+  &.navcontainer {
+    width: 75%;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+
+    &.logocontainer {
+      margin-right: auto;
+      list-style: none;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: flex-start;
+
+      &.is-logo {
+        height: 32px;
+        width: 32px;
+        padding: 1em;
+        margin-right: 0;
+        margin-left: 0;
+      }
+      &.is-logotext {
+        font-size: 20px;
+        align-self: center;
+        display: block;
+        max-width: 5em;
+        padding: 1em;
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+
+    //flex items
+    &.textcontainer {
+      list-style: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: flex-end;
+      &:nth-last-child(1) {
+        margin-right:1em;
+      }
+      &.is-text {
+        transition: 300ms;
+        font-size: 20px;
+        align-self: center;
+        text-align:center;
+        padding: 0.5em;
+        display: block;
+        margin: 0;
+        max-width:5em;
+        cursor:pointer;
+        &:hover {
+          transition: 300ms;
+          background: darken(#f5f5f5, 4%);
+        }
+      }
+
+    }
+  }
+
+//Color modifiers
+  $turquoise:#1abc9c;
+  &.is-transparent {
+    background-color:transparent;
+  }
+  &.is-turquoise {
+    background-color:#1abc9c;
+    border: 2px darken(#1abc9c , 4%) solid;
+    text-shadow: darken(#1abc9c , 4%);
+  }
+
+  &.is-greensea {
+    background-color:#16a085 ;
+    border: 2px darken(#16a085 , 4%) solid;
+    text-shadow: darken(#16a085 , 4%);
+  }
+  &.is-sunflower {
+    background-color:#f1c40f ;
+    border: 2px darken(#f1c40f , 4%) solid;
+    text-shadow: darken(#f1c40f , 4%);
+  }
+  &.is-orange {
+    background-color:#f39c12 ;
+    border: 2px darken(#f39c12 , 4%) solid;
+    text-shadow: darken(#f39c12 , 4%);
+  }
+  &.is-emerald {
+    background-color:#2ecc71 ;
+    border: 2px darken(#2ecc71 , 4%) solid;
+    text-shadow: darken(#2ecc71 , 4%);
+  }
+  &.is-nephritis {
+    background-color:#27ae60 ;
+    border: 2px darken(#27ae60 , 4%) solid;
+    text-shadow: darken(#27ae60 , 4%);
+  }
+  &.is-carrot {
+    background-color:#e67e22 ;
+    border: 2px darken(#e67e22 , 4%) solid;
+    text-shadow: darken(#e67e22 , 4%);
+  }
+  &.is-pumpkin {
+    background-color:#d35400 ;
+    border: 2px darken(#d35400 , 4%) solid;
+    text-shadow: darken(#d35400 , 4%);
+  }
+  &.is-peterriver {
+    background-color:#3498db;
+    border: 2px darken(#3498db, 4%) solid;
+    text-shadow: darken(#3498db, 4%);
+  }
+  &.is-belizehole {
+    background-color:#2980b9 ;
+    border: 2px darken(#2980b9 , 4%) solid;
+    text-shadow: darken(#2980b9 , 4%);
+  }
+  &.is-alizarin {
+    background-color:#e74c3c ;
+    border: 2px darken(#e74c3c , 4%) solid;
+    text-shadow: darken(#e74c3c , 4%);
+  }
+  &.is-pomegranate {
+    background-color:#c0392b ;
+    border: 2px darken(#c0392b , 4%) solid;
+    text-shadow: darken(#c0392b , 4%);
+  }
+  &.is-amethyst {
+    background-color:#9b59b6 ;
+    border: 2px darken(#9b59b6 , 4%) solid;
+    text-shadow: darken(#9b59b6 , 4%);
+  }
+  &.is-wisteria {
+    background-color:#8e44ad;
+    border: 2px darken(#8e44ad, 4%) solid;
+    text-shadow: darken(#8e44ad, 4%);
+  }
+  &.is-clouds {
+    background-color:#ecf0f1 ;
+    border: 2px darken(#ecf0f1 , 4%) solid;
+    text-shadow: darken(#ecf0f1 , 4%);
+  }
+  &.is-silver {
+    background-color:#bdc3c7 ;
+    border: 2px darken(#bdc3c7 , 4%) solid;
+    text-shadow: darken(#bdc3c7 , 4%);
+  }
+  &.is-wetasphalt {
+    background-color:#34495e;
+    border: 2px darken(#34495e, 4%) solid;
+    text-shadow: darken(#34495e, 4%);
+  }
+  &.is-midnightblue {
+    background-color:#2c3e50 ;
+    border: 2px darken(#2c3e50 , 4%) solid;
+    text-shadow: darken(#2c3e50 , 4%);
+  }
+  &.is-concrete {
+    background-color:#95a5a6 ;
+    border: 2px darken(#95a5a6 , 4%) solid;
+    text-shadow: darken(#95a5a6 , 4%);
+  }
+  &.is-asbestos {
+    background-color:#7f8c8d ;
+    border: 2px darken(#7f8c8d , 4%) solid;
+    text-shadow: darken(#7f8c8d , 4%);
+  }
+  &.is-noborder {
+    border:none;
+  }
+
+  //TODO remove these font modifiers, since they all get merged into one css at the end, it's not good to have duplicate code.
+  //Font modifiers
+  //For Ubuntu
+  &.is-ubuntu {
+    font-family: Ubuntu;
+  }
+  &.is-ubuntubold {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-style: normal
+  }
+  &.is-ubuntuitalic {
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-style: italic;
+  }
+  &.is-ubuntubolditalic {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  //For Open Sans
+  &.is-opensans {
+    font-family: Opensans;
+  }
+  &.is-opensansbold {
+    font-family: Opensans;
+    font-weight: bold;
+    font-style: normal;
+  }
+  &.is-opensansitalic {
+    font-family: Opensans;
+    font-weight: normal;
+    font-style: italic;
+  }
+  &.is-opensansbolditalic {
+    font-family: Opensans;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  //For League Gothic
+  &.is-leaguegothic {
+    font-family: Leaguegothic;
+  }
+  &.is-leaguegothicbold {
+    font-family: Leaguegothic;
+    font-weight: bold;
+    font-style: normal;
+  }
+  &.is-leaguegothicitalic {
+    font-family: Leaguegothic;
+    font-weight: normal;
+    font-style: italic;
+  }
+  &.is-leaguegothicbolditalic {
+    font-family: Leaguegothic;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+//declaring fonts with @font-face
+@font-face {
+  font-family: Ubuntu;
+  //IGNORE THIS ERROR
+  src: url('../fonts/Ubuntu-regular.ttf') format('truetype'); //for CSS, this dir works IGNORE THIS ERROR
+  //IGNORE THIS ERROR
+
+}
+@font-face {
+  font-family: Opensans;
+  //IGNORE THIS ERROR
+  src: url('../fonts/Opensans-regular.ttf') format('truetype'); //for CSS, this dir works
+  //IGNORE THIS ERROR
+
+}
+@font-face {
+  font-family: "Leaguegothic";
+  //IGNORE THIS ERROR
+  src: url('../fonts/Leaguegothic-regular.ttf') format('truetype'); //for CSS, this dir works
+  //IGNORE THIS ERROR
+}
+
+

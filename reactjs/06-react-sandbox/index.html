@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body>
+<div id="mount-point"> </div>
+
+
+
+Unidirectional Data Flow
+
+In React, application data flows unidirectionally via the state and props objects, as opposed to the two-way binding of libraries like Angular. This means that, in a multi component heirachy, a common parent component should manage the state and pass it down the chain via props.
+
+Your state should be updated using the setState method to ensure that a UI refresh will occur, if necessary. The resulting values should be passed down to child components using attributes that are accessible in said children via this.props.
+
+See this example that shows this concept in practice:
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./vendor/babel-browser.min.js"></script>
+<script type="text/babel" src="./app.jsx"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{{#if notRegistered}}
+    <form method="post" action="/register">
+        <input name="username" type="text"/>
+        <input name="password" type="password"/>
+        <button type="submit">SUBMIT.</button>
+    </form>
+{{/if}}
+
+{{#if registered}}
+
+    <h1>SUCESSFULLY REGISTERED!,
+    also I recieved a POST request from form.
+    </h1>
+    {{user.user}}
+
+{{/if}}

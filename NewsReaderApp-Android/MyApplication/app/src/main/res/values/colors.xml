@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#cd050505</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonColour">#2196F3</color>
+    <color name="tan_background">#FFF7DA</color>
+
+    <!--nightmode-->
+
+    <!--text background-->
+    <color name="textCardColourBackground">#212121</color>
+
+    <!--text colour-->
+    <color name="textCardColour">#b3ffffff</color>
+    <color name="headerTitle">#ffffff</color>
+
+    <!--navigation bar background-->
+    <color name="colorPrimaryDark2">#212121</color>
+
+
+
+</resources>

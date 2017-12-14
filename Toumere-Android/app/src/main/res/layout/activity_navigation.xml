@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <!--card 1-->
+    <RelativeLayout
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="50%"
+            android:id="@+id/img1"
+
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_widthPercent="50%"
+                app:layout_heightPercent="50%"
+                android:src="@drawable/card1"
+                android:scaleType="fitXY"
+        />
+        <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Bezienswaardigheden >>"
+                android:textColor="@android:color/white"
+                android:background="#74424242"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="10dp"
+        />
+    </RelativeLayout>
+
+    <!--card2-->
+    <RelativeLayout
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="50%"
+            android:layout_toRightOf="@id/img1"
+            android:id="@+id/img2"
+
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/card2"
+                android:scaleType="fitXY"
+
+        />
+
+        <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Accommodaties >>"
+                android:textColor="@android:color/white"
+                android:background="#74424242"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="10dp"
+        />
+
+        <!--card3-->
+    </RelativeLayout>
+    <RelativeLayout
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="50%"
+            android:id="@+id/img3"
+            android:layout_below="@id/img1"
+
+
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/card3"
+                android:scaleType="fitXY"
+
+        />
+
+        <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Sporten >>"
+                android:textColor="@android:color/white"
+                android:background="#74424242"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="10dp"
+        />
+    </RelativeLayout>
+
+    <!--card4-->
+    <RelativeLayout
+            app:layout_widthPercent="50%"
+            app:layout_heightPercent="50%"
+            android:id="@+id/img4"
+            android:layout_below="@id/img1"
+            android:layout_toRightOf="@id/img3"
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/card4"
+                android:scaleType="fitXY"
+
+
+        />
+        <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Eten >>"
+                android:textColor="@android:color/white"
+                android:background="#74424242"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="10dp"
+        />
+    </RelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>
+
+

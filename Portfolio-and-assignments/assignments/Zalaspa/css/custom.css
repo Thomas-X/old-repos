@@ -1,0 +1,136 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    background: url("../img/kitty.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.img, .img img {
+    background-image: url("../img/bg1.png");
+    height: 100vh;
+    min-width: 196vh;
+    width: auto;
+    background-size: cover
+}
+.img {
+    display:flex;
+    justify-content:center;
+}
+
+.nav.navcontainer {
+    background: none;
+}
+
+#nav {
+    transition: 300ms;
+    width: 85%;
+}
+
+.container {
+    transition: 400ms;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(69, 72, 77, 0) 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(69, 72, 77, 0) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(69, 72, 77, 0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6000000', endColorstr='#0045484d', GradientType=0); /* IE6-9 */
+    position: fixed;
+}
+
+.container a {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-right: 15px !important;
+}
+
+.container a:hover {
+    background-color: #F4511E !important;
+}
+
+.textContainer h1 {
+    margin: 0;
+}
+
+.container.is-float {
+    transition: 300ms;
+    background: #FF5722 none;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,45484d+100&0.9+0,1+100 */
+}
+
+#logoNav {
+    transition: 300ms;
+    width: 216px;
+    height: 84px;
+    padding: 15px;
+    margin: 0;
+}
+
+/*scrollbar*/
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(68, 65, 66, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(71, 72, 71, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.textContainer {
+    color: #ffffff;
+    height:auto;
+    align-self:center;
+    font-size:30px;
+    font-style:italic;
+}
+.wrapper {
+    width:1100px;
+    margin:auto;
+    background-color:whitesmoke;
+}
+.wrapper p {
+    text-align: center;
+    margin:0;
+}
+#wrapperBanner {
+    display:flex;
+    align-items:flex-start;
+    background-color:transparent;
+}
+.banner {
+    background-color: #282E34;
+    height:366px;
+}
+.banner2 {
+    background-color: #ffffff;
+    height:366px;
+}
+#wrapperBanner2 {
+    display:flex;
+    align-items:flex-start;
+    background-color:transparent;
+}
+
+.containerWrapper {
+    background: url("../img/bg2.jpg") no-repeat fixed center;
+    background-size: cover;
+}

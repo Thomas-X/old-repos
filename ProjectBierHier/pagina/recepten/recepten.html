@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recepten</title>
+    <link rel="stylesheet" href="css/recepten.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+
+    <!--<div class="parallax">-->
+
+<!--MADE BY THOMAS ZWARTS & BARRY WILLEMS-->
+
+    <div class="nav">
+
+        <div id="imganimation">
+            <img id="img" src="../../img/menu.png" class="menuicon" onclick="openorcloseNav()" alt="ditiseenalt"/>
+        </div>
+        <script>
+            var toggle = 1;
+
+            function openorcloseNav() {
+                if (toggle == 1) {
+
+                    document.getElementById("sideNav").style.width = "250px";
+                    toggle = 0;
+                }
+                else {
+
+                    document.getElementById("sideNav").style.width = "0";
+
+
+                    toggle = 1;
+                }
+            }
+
+
+        </script>
+
+        <!--Logo dingen, tekst enzo -->
+
+        <a class="redirect" href="../../index.html">
+            <img class="logo" src="../../img/beertitle.png"
+                 alt="logo should be here"/>
+        </a>
+
+        <!--document.getElementById('imganimation').setAttribute("class", "style1")-->
+        <a href="../../index.html" class="logotext">BIER HIER</a>
+
+
+        <!--SIDE NAV-->
+        <div id="sideNav" class="sidenav">
+            <a href="../contact/contact.html" class="contact">CONTACT</a>
+            <a href="../overons/overons.html" class="overons">OVER ONS</a>
+            <a href="../recepten/recepten.html" class="recepten">RECEPTEN</a>
+            <a href="../sport/sport.html" class="sport">SPORT</a>
+            <a href="../concerten/concerten.html" class="concerten">CONCERTEN</a>
+        </div>
+
+    </div>
+
+
+
+<div class="receptenbigcontainer">
+
+    <img src="img/recepten.jpg" alt="recepten">
+    <a class="receptentext">Recepten Pagina.</a>
+
+</div>
+
+<div class="balk">
+    <a class="tekstbalk">Onze Recepten van BierHier</a>
+    <!-- Waarom recepten?, niemand weet het -->
+</div>
+<div class="wrapper">
+
+    <div class="containerbloemkool1">
+        <div class="tekstrecept1">
+            <div class="containerboerenkool1">
+                <a class="boerenkool32">Bloemkool met worst</a>
+            </div>
+            <img class="bloemkool1" onclick="bloemkool()"  src="img/bloemkool1.jpg" alt="ditiseenalt"/>
+            <script>
+                function bloemkool() {
+                    window.location.href = "../recepten/receptbloemkool.html";
+
+                    return false;
+
+                }
+            </script>
+
+            <img class="bloemkool2" onclick="bloemkool()" src="img/bloemkool2.jpg" alt="ditiseenalt"/>
+            <p class="boerenkooltekst1"><br>
+                orta. Quisque volutpat congue arcu id rutrum. Pra,<br>
+                o, ut vestibulum dolor. Pellentesque eu molestie mi
+                ,<br>ex. Etiam tempor lectus dui, vel max
+                <br>nt aliquet nisl tortor, sed egestas augue dapi
+                <br>lis orci id lobortis. In vitae tincidunt magna.
+                <br> Quisque lacinia feugiat varius.
+                ,<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+            </p>
+        </div>
+    </div>
+
+
+    <!--/* ============ */-->
+    <div class="containerbloemkool2">
+        <div class="tekstrecept2">
+            <div class="containerboerenkool2">
+                <a class="boerenkool2">Stampot met jus</a>
+            </div>
+            <img class="bloemkool12" onclick="bloemkool2()" src="img/stamppot.jpg" alt="ditiseenalt"/>
+            <img class="bloemkool22" onclick="bloemkool2()" src="img/stampot.jpg" alt="ditiseenalt"/>
+
+            <script>
+                function bloemkool2() {
+                    window.location.href = "../recepten/receptstampmetjus.html";
+                }
+            </script>
+
+            <p class="boerenkooltekst2"><br>
+                orta. Quisque volutpat congue arcu id rutrum. Pra,<br>
+                o, ut vestibulum dolor. Pellentesque eu molestie mi
+                ,<br>ex. Etiam tempor lectus dui, vel max
+                <br>nt aliquet nisl tortor, sed egestas augue dapi
+                <br>lis orci id lobortis. In vitae tincidunt magna.
+                <br> Quisque lacinia feugiat varius.
+                ,<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+    </div>
+
+</div> <!--wrapper-->
+<footer>
+    <div class="sitel">
+        Site links
+    </div>
+    <div class="footer">
+        <a href="../../index.html">Home Page</a>
+        <a href="../contact/contact.html">Contact</a>
+        <a href="../overons/overons.html">Over ons</a>
+        <a href="../recepten/recepten.html">Recepten</a>
+        <a href="../sport/sport.html">Sport</a>
+        Copyright &copy; ROC Flevoland 2016<br>
+        <a class="love"><br>Made with ❤ by Thomas-X</a>
+    </div>
+</footer>
+
+
+
+<!--</div>-->
+</body>
+</html>

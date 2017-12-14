@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='nl'>
+
+    <head>
+        <title>Boter, Kaas en Eieren</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div id="mainContainer">
+
+            <h1>Boter, Kaas &amp; Eieren</h1>
+
+            <div id="speelveld">
+                <table border="0">
+                    <tr>
+                        <td><img id="id1" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                        <td><img id="id2" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                        <td><img id="id3" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                    </tr>
+                    <tr>
+                        <td><img id="id4" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                        <td><img id="id5" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                        <td><img id="id6" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                    </tr>
+                    <tr>
+                        <td><img id="id7" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                        <td><img id="id8" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                        <td><img id="id9" onclick="bke(this.id)" alt="" title="" src="img/empty.jpg" /></td>
+                    </tr>
+                </table>
+            </div> <!-- EINDE SPEELVELD CONTAINER -->
+
+            <div id="game-info">
+                <h1>Aan beurt</h1>
+
+                <table class="players-turn" border="0">
+                    <tr>
+                        <td><img width="25" height="25" alt="" title="" id="playerImage" src="img/cross.jpg" /></td>
+                        <td>Speler</td>
+                        <td id="speler">1</td>
+                    </tr>
+                </table> <!-- EINDE SPELER AAN ZET TABEL -->
+
+                <h1>Scores</h1>
+
+                <table class="rounds-info">
+                    <tr>
+                        <td><img width="15" height="15" alt="" title="" src="img/cross.jpg" />&nbsp;Speler 1</td>
+                        <td id="cross">0</td>
+                    </tr>
+                    <tr>
+                        <td><img width="15" height="15" alt="" title="" src="img/circle.jpg" />&nbsp;Speler 2</td>
+                        <td id="circle">0</td>
+                    </tr>
+                    <tr>
+                        <td>Aantal rondes</td>
+                        <td id="total">0</td>
+                    </tr>
+                </table> <!-- EINDE INFO TABEL -->
+
+                <button id="gameButton" onclick="btnStartReset()" class="game-button">Start spel</button>
+
+            </div> <!-- EINDE GAME-INFO CONTAINER -->
+
+        </div> <!-- EINDE MAINCONTAINER -->
+
+        <script type="text/javascript" src="js/bke.js"></script>
+
+    </body>
+
+</html>

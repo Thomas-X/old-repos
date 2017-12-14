@@ -1,0 +1,1012 @@
+  _____ _  _   _ _  _ _____ ___ 
+ |_   _/_\| | | | \| |_   _/ __|
+   | |/ _ \ |_| | .` | | | \__ \
+   |_/_/ \_\___/|_|\_| |_| |___/
+
+================================================
+
+01 Yes 
+02 No 
+03 Food, please 
+04 Wood, please 
+05 Gold, PLease 
+06 Stone, please 
+07 Ahh 
+08 All Hail 
+09 Oooh 
+10 Back to Age 1 
+11 Herb laugh 
+12 Being rushed 
+13 Blame your isp 
+14 Start the game 
+15 Don't Point That Thing 
+16 Enemy Sighted 
+17 It Is Good 
+18 I Need a Monk 
+19 Long Time No Siege 
+20 My granny 
+21 Nice Town I'll Take It 
+22 Quit Touchin 
+23 Raiding Party 
+24 Dadgum 
+25 Smite Me 
+26 The wonder 
+27 You play 2 hours 
+28 You Should See the Other Guy 
+29 Roggan 
+30 Wololo 
+31 Attack an Enemy Now 
+32 Cease Creating Extra Villagers 
+33 Create Extra Villagers 
+34 Build a Navy 
+35 Stop Building a Navy 
+36 Wait for My Signal to Attack 
+37 Build a Wonder 
+38 Give Me Your Extra Resources 
+39 Nom Nom Nom pt1 
+40 Nom Nom Nom pt2 
+41 Nom Nom Nom pt3 
+42 What Age Are You In 
+43 Hey, you're in deep doh now 
+44 doheth 
+45 Excellent 
+46 Release the hounds 
+47 Why you little 
+48 You guys suck 
+49 haahahahaahaaahaha 
+50 You are an idiot, hahahahahahaha 
+51 hehe what a dork hehehe 
+52 Run away! Run away! 
+53 There's only two ways this can end 
+54 Stop pummelling me! It's really painful! 
+55 (Voice) (Evil Laugh) 
+56 (Voice) Burn baby burn 
+57 (Voice) Chicken Ass 
+58 (Voice) Clean up on isle 5 
+59 (Voice) Damn I'm good 
+60 (Voice) Do you smell something burning 
+61 (Voice) Die, Weakling! 
+62 (Voice) Forget the brown bag - you need a body bag 
+63 (Voice) Get'em 
+64 (Voice) Going, Going, Gone 
+65 (Voice) Good One! 
+66 (Voice) He's outta there 
+67 (Voice) I - am the angel of death 
+68 (Voice) I regret nothing 
+69 (Voice) I'll see you in hell! 
+70 (Voice) Is it hot in here, or is it just me 
+71 (Voice) Is there a doctor in the house 
+72 (Voice) Keep the change 
+73 (Voice) Now that's a blue light special 
+74 (Voice) Oh - Did that hurt 
+75 Listen, you haven't seen the coolest part, this is gonna blow you away 
+76 (Voice) Oww - do you have a booboo 
+77 (Voice) Oww, with the birthday suit 
+78 (Voice) See you in hell 
+79 (Voice) Show no mercy 
+80 (Voice) Sissy! 
+81 (Voice) Smells like chicken 
+82 (Voice) Today is a good day to die 
+83 (Voice) Ummm, I love a good bbq 
+84 (Voice) Hoohah! 
+85 (Voice) Wussie 
+86 (Voice) You should've gone to Disney Land 
+87 (Voice) You're gonna need a massage after this 
+88 (Voice) You're gonna pay for that 
+89 (Voice) You're the man 
+90 I have a very bad feeling about this 
+91 hahahahahaha 
+92 That was a record! 
+93 I'll soon rule the world, but first you have to die 
+94 hAAhahaHaha 
+95 I'm trying to think but nothing happens 
+96 You want it sugar coated or between the eyes 
+97 Uh oh, I almost made a booboo 
+98 See this, this is my boom stick! 
+99 Somebody Dial 911! 
+100 (Star Wars) All too easy 
+101 (Star Wars) Everything is proceeding as I have foreseen 
+102 (Star Wars) I find your lack of faith disturbing 
+103 (Star Wars) I think it is time to demonstrate the full power of this station 
+104 I will do, what must be done 
+105 (Star Wars) If you strike me down I shall become more powerful than you can possibly imagine 
+106 (Star Wars) It is pointless to resist 
+107 (Star Wars) There is no escape, don't make me destroy you 
+108 (Star Wars) (Jabba Laughs) 
+109 (Star Wars) (Yoda Laughs) 
+110 Die you son of a bitch 
+111 (Star Wars) Move the fleet away from the deathstar 
+112 (Star Wars) Ummmmmmm 
+113 Life's a bitch, and then you die 
+114 (Star Wars) You may fire when ready 
+115 (Star Wars) You must learn the ways of the force 
+116 (Star Wars) You should not have come back 
+117 I'm gonna kick your ass, bitch 
+118 There's nothing you can do about it, cause I'm a mad man 
+119 Rock and Roll 
+120 Oh I'm so scared 
+121 Your getting pretty ambitious ain't ya 
+122 ORLY! 
+123 You made a mistake, well that was entirely unacceptable 
+124 Are you still there 
+125 Ooh that's gotta hurt 
+126 Buckle up bonehead, cause you're going for a ride 
+127 Chucky's Laugh 
+128 You know what I mean by assaulted, well i mean assaulted! 
+129 That's it, lets do it I'm ready 
+130 You know, could put somebody's eye out with that thing 
+131 How we doing, same as always, that bad eh 
+132 Now witness the firepower of this fully armed and operational battle station 
+133 You are beaten, it is useless to resist 
+134  If you only knew the power of the dark side 
+135 Don't make me destroy you 
+136  That's impossible even for a computer 
+137 I better get out of here while the getting's good 
+138 Well blow me down 
+139 Strength in Unity! 
+140 Oh boy that felt good 
+141 Watch it buster 
+142 A guy could get killed out there in the country, with all them guns going off 
+143 Kiss my curvy but goodbye 
+144 Mother said there'd be days like this 
+145 Now now, don't be bashful 
+146 My, aren't we touchy today 
+147 Aye come here, Ive got something good for you, come on come on 
+148 Muahahaha 
+149 Fear clutches my breast 
+150 (Austin Powers) (Evil Laugh) 
+151 Hey, Fuck you 
+152 Woah! what the hell's your problem 
+153 (Austin Powers) Come Mr. Bigglesworth (meow) 
+154 Trololo-Family Guy 
+155 (Austin Powers) I shall call him mini me 
+156 (Austin Powers) I'm gonna go back to the 60s and steal Austin Power's mojo 
+157 (Austin Powers) I'm gonna get you Austin Powers 
+158 I am gravely disappointed in you 
+159 (Austin Powers) I've been a frickin evil doctor for 30 frickin years, ok 
+160 (Austin Powers) Mr President in 12 hours I'll destroy Washington DC with this giant laser 
+161 (Stewie) SAY WHAT! 
+162 Our thoughts are one! 
+163 Yes i'm sorry, I do not speak english, ok 
+164 Triumph through Sacrifice! 
+165 Has it all been, for NOTHING! 
+166 (Austin Powers) Why make Trillions when you can make billions 
+167 Damn you all to hell! 
+168 Now that's an ass wooping 
+169 Common, quit stalling! 
+170 Now look it, I say look it here 
+171 Heh, guess they're excited 
+172 I still got the touch 
+173 HAHA, Assholes! 
+174 Come on now, lets get this army of mine back in the war 
+175 Now don't you bet your life on it 
+176 COOL! 
+177 You must play me again 
+178I gotta go to the bathroom! 
+179 You poor little man, did I hurt you with my naughty gun 
+180 (bugle call) 
+181 Morons, I've got morons on my team 
+182 You know, It could be worse 
+183 What do we do now soldier 
+184 Now listen to me, I beg of you not to do this 
+185 LEROY JENKINS 
+186 That's hitting low 
+187 Never say die! 
+188 You gonna do something or just stand there and  bleed 
+189 No no, don't do that, if you shoot him you'll just make him mad 
+190 Remember to upgrade at the blacksmith, you do have a blacksmith right 
+191 What's it like knowing your about to die 
+192 when it comes to chowing down on a real man, you're quite the little wussie ain't ya 
+193 I cant cope with this, I will go lie down somewhere 
+194 He will be fun to break 
+195 I die with honor 
+196 I'm afraid that's something I cannot allow to happen 
+197 By your command 
+198 Bye Bye boys, have fun storming the castle 
+199 (Saw) I want to play a game 
+200 What we've got here is, failure to communicate 
+201 (Saw) Live or die, make your choice 
+202 (Saw) Congratulations, you are still alive 
+203 (Saw) Most people are so ungrateful to be alive 
+204 Wolf 
+205 Random 
+206 Age of Mythology's 999 Theme 
+207 Throw me a freakin bone here, i'm the boss, need the info 
+208 Uh can u remind me what i pay you people for, honestly throw me a bone here 
+209 Now you listen to me mister 
+210 He wants a challenge, lets give him one 
+211 [tune] Taps 
+212 Chainsaw reving 
+213 behold, the hoard of genghis khan approaches 
+214 It's genghis khan! we must flee! 
+215 Sir, one more outburst from you and I will strangle you with this microphone wire 
+216 Keep it you'll be carrying your face home in a doggy bag 
+217 Snore 
+218 OH Yeah! 
+219 I could pull a better cartoon outta my aaaa 
+220 Wicked laugh 
+221 Man screaming 
+222 Baby crying 
+223 Always two there are, a master and an apprentice 
+224 At last we'll have revenge 
+225 Begin landing your troops 
+226 This is a battle I do not think that we can win 
+227 We must do something quick 
+228 Wipe them out - all of them 
+229 shit eating son on a bitch 
+230 You said people gonna die 
+231 Thank you for coming! I'll see you in hell! 
+232 I'll bash you good 
+233 Computers can do that 
+234 craaaaaaaaap 
+235 You gonna give me orders 
+236 Its GO! Time 
+237 Lets put a smile on that face! 
+238 I see live people, i see dead people 
+239 bad cackle 
+240 bastard douchebag twat dickhead 
+241 Your armies are too close to my city, stand down 
+242 charge 
+243 Red alert 
+244 Whats the matter with you people I was joking 
+245 Twilight Zone theme music 
+246 Here I come to save the day 
+247 I feel I must apologize for the conduct of my nation in the war 
+248 Always look on the bright side of life 
+249 Are you gonna bark all day little doggy or are you gonna bite 
+250 Please I don't wanna die, I have so much to give, i need more time 
+251 You are an impudent fool 
+252 scumbag fuckface dickhead asshole 
+253 I specifically said, no geeks 
+254 We attack under the cover of daylight 
+255 Won't you let me live, won't you please 
+256 Eddie Murphy does Kung Fu 
+257 It was not what I wanted! 
+258 Oh you little maggot - you make me want to vommit 
+259 I have failed because you have not helped me 
+260 Sir Yes Sir 
+261 What is your major malfunction numbnuts 
+262 What are you waiting for - come on - come on 
+263 Hooo-Ha 
+264 What are you - some kind of doomsday machine boy 
+265 Come on come on, kill me I'm here kill me 
+266 When boy, when, are you gonna get your act together 
+267 Tell me where the rest of your men are hiding 
+268 Very well, if that's the way you want to play it 
+269 Such ingratitude after all the times I've saved your life 
+270 Shutup 
+271 Laughter 
+272 More Laughter 
+273 BnB Laughter 
+274 You're not as stupid as I thought, you might even be intelligent 
+275 This game has gone on long enough 
+276 Enough talk - let's get on with it 
+277 You're a bumbling inept fool 
+278 you shit kicking stinking horse maneur smelling mothafucka 
+279 France has fallen 
+280 Long live france 
+281 You have one more chance, apologize and resign 
+282 Never interupt your enemy when he is making a mistake 
+283 We have to face facts, the war is lost 
+284 You never meant to keep you word, you have no honor, you are a cheat and a liar 
+285 HA HA HA SHUT UP 
+286 I now formally request your assistance 
+287 You learn quickly, that's good - I like that 
+288 We won battles against armies, now one man defeats all my knights 
+289 I have an announcement, I am drunk! 
+290 muthafucka! 
+291 fuck you, yeah thats my message 
+292 Redrum 
+293 Hi i'm Chucky wanna play 
+294 why dont you go home and fuck your mother some more 
+295 Run home to your mother boy 
+296 fuck your own face 
+297 A most excellent idea sire 
+298 We won - victory 
+299 To the death 
+300 We come in peace, shoot to kill x3 
+301 You are outmatched, you have no heavy cavalry 
+302 can't touch this 
+303 We must not divide our forces 
+304 We have beaten the english 
+305 No Te canses 
+306 GO! 
+307 I am skilled in the arts of war and military tactics 
+308 Bagpipes 
+309 More bagpipes 
+310 Trumpets 
+311 Drums 
+312 20th century fox movie opening 
+313 You are under my orders sir 
+314 You fucker huh huh huh 
+315 Just what the heck do you think you're doin 
+316 Does this mean we're not friends anymore 
+317 Hail to the King Baby 
+318 Back off or there will be trouble 
+319 Face me coward 
+320 We're taking this place over 
+321 I'm growing impatient 
+322 Bring it on 
+323 Time to play 
+324 I'm just curious, why am i so good 
+325 (Akira) They found us - run for it 
+326 (Akira) Do it now 
+327 I'm gonna have to open up a can of whoop-ass 
+328 I'll kill you all 
+329 There will be blood 
+330 French Guard's insults in Monty Python 
+331 Hello, my name is Indigo Mantoya, you killed my father, prepare to die 
+332 They're here 
+333 Inconceiveable 
+334 I am noone to be trifle with, that is all you ever need know 
+335 Ready the catapults, by god, let's give em one more 
+336 (Homer) meow meow meow meow 
+337 (Homer) oooh, that's bad 
+338 (Homer) Doh, oh, ok 
+339 (Homer) Hello 
+340 (Homer) Shutup 
+341 (Homer) Alright, that's the last straw, time to take out the trash 
+342 get this through your head you motherfucker you 
+343 you're fuckin warned don't ever go over my head again 
+344 you tell your king, William Wallace will not be ruled 
+345 Our situation has not improved 
+346 We'll tear your soul apart 
+347 (Denis Leary) goingdown 
+348 (Denis Leary) heyhey 
+349 (Denis Leary) lordofdance 
+350 (Denis Leary) pullup 
+351 (Denis Leary) relax 
+352 (Denis Leary) sorry 
+353 (Denis Leary) thinking 
+354 (Denis Leary) yourewelcome 
+355 Hey bud what's your problem 
+356 ofc you know This Means War 
+357 Hoho Very funny Haha it is to laugh 
+358 You bastard 
+359 Doh 
+360 Eat my shorts 
+361 Gong 
+362 Impressive 
+363 go,go,go,go,go,go 
+364 Our base is under attack 
+365 cough 
+366 You are making me so angry 
+367 Stop fighting back, it's not fair 
+368 The calvary should be coming directly 
+369 Hey, we didn't do nothin to you 
+370 You're not talkin to me are ya 
+371 (3rd Rock) I'm so Screwed 
+372 (Married with Children) Cant Do This to Me, i'm a Legend 
+373 (SNL) Sweet mother of god, What is the Holdup 
+374 (Seinfeld) I'm Dangerous, i'm very very dangerous 
+375 You gotta be fuckin kidding 
+376 (Aliens) Thats it man Game Over 
+377 (Aliens) Its Game Time 
+378 (Aliens) Let's Rock 
+379 (Dirty Harry) Go Ahead Make my Day 
+380 (Evil Dead 3) Go Ahead and Run to Mama 
+381 (Eraser) You've Just been Erased 
+382 (Ace Ventura) Alrighty Then 
+383 (Ace Ventura) I'm warning you, I'm Seriously Stressed here 
+384 (Ferris Bueller) How Could I have been So Careless 
+385 (Ferris Bueller) You Still Here it's over, Go Home, go 
+386 (Waterboy) Time to Open Whoop-ass 
+387 (ID4) Looks like Preparing Invasion 
+388 (ID4) Whos the Man Huh 
+389 (Bill & Ted) Excellent 
+390 (Bill & Ted) No Way 
+391 (Big Trouble Little China) I Can Handle it 
+392 (Big Trouble Little China) Really Pisses Me Off 
+393 (Big Trouble Little China) I Was Born Ready 
+394 (Monty Python) I'll Bite Your Legs Off 
+395 Die Die DIE! 
+396 Bring out yer dead 
+397 I'll kill you I ain't playing 
+398 die mofo die mofo die 
+399 mind your own business 
+400 Go to sleep bitch 
+401 beep beep yeahh 
+402 There's nothing to worry about, you're gonna be just fine 
+403 Woah somebody was up late 
+404 You again don't you have a life 
+405 well isn't that special 
+406 Leave That To Me 
+407 Lost Your Mind 
+408 Attention All Personnel Must Evacuate 
+409 Uh Oh 
+410 Oh Crap 
+411 There They Go 
+412 No Cause For Alarm 
+413 A communications disruption can mean only one thing, invasion 
+414 There seems to be no sign of intelligent life anywere 
+415 Revenge is not an idea we promote on my planet 
+416 I think we better split up 
+417 Red leader standing by, gray leader standing by 
+418 (SNL) I wish you could Shut Your Big Yapper 
+419 (Simpsons) Oh Indeedly Doodly 
+420 (Simpsons) Woohoo 
+421 (Simpsons) Krusty Laugh 
+422 (Evil Dead 3) Come Get Some 
+423 (Evil Dead 3) Oh You Little Bastards 
+424 (Something About Mary) Owwww 
+425 (Dumb & Dumber) You're One Pathetic Loser 
+426 (Wayne's World) Denied 
+427 (Starship Trooper) Everyone Fights, No One Quits 
+428 (Forest Gump) He said he Gotta Pee 
+429 We're gonna be cool 
+430 I am cornholio, I have no bunghole 
+431 This is the coolest thing I have ever seen 
+432 Fire, Fire 
+433 Are you threatening me 
+434 Its Peanut Butter Jelly Time!!! 
+435 Who the britons 
+436 None shall pass 
+437 Nyan Cat 
+438 Are you ready for a war 
+439 I Hate You 
+440 What are we going to do 
+441 Whats Up Doc 
+442 Move it! 
+443 Super Mario loses life 
+444 dubstep (lollipop) 
+445 Super Mario gets star 
+446 Super Mario Course Clear 
+447 You go sit in front of the tv and eat cheesy-poofs assmaster 
+448 I am a cop and you will respect my authorita 
+449 Beefcake, beefcake, BEEFCAKE, BEEFCAKE 
+450 Hey, I don't have to take that kind of crap from you scrawny weakling 
+451 aww yeeah first place bitches! LOL 
+452 Screw you hippie 
+453 kyle's mom is a bitch 
+454 Ok everybody get in a line so I can whoop all your asses 
+455 that's it now im all pissed off! take that hippie 
+456 death awaits ye all with nasty big point teeth 
+457 alwight alwight we'll kill him first and then have tea and biscuits 
+458 what are ya gonna do bleed on me 
+459 oh lord bless this thine hand grenade that with it thou shalt blow thine enemys to tiny bits in thy mercy 
+460 lets not bicker and argue about who killed who 
+461 you're a loony 
+462 go away 
+463 running away won't save ya 
+464 sakes i mean wouldnt ya think he could find a better place to put a building 
+465 no thanks necessary my good man i was just doing my duty 
+466 there's something screwy around here 
+467 alright rasneck lets see ya try that again 
+468 i like him hes crazy 
+469 hankering for trouble hey 
+470 you wouldnt dare 
+471 look just give me a chance can't ya 
+472 this is it the final the very very last straw 
+473 i've never been so humiliated in all my life 
+474 would it be too much to ask if we could make up our minds 
+475 okay have it YOUR way 
+476 psst whoever's in charge here 
+477 quick save me pal 
+478 you're dispicable 
+479 heh didnt think i could do it did ya 
+480 aint you got nothin better to do 
+481 it will take him all day to figure this one out 
+482 oh you again 
+483 yeeeeh mr wise guy now you're gonna get it 
+484 i cannot fight no more against such genius 
+485 now the real game begins 
+486  i have come here to chew bubblegum and kick ass and im all outta bubblegum 
+487 and now ladies and gentlemen let's get ready to rumble 
+488 i'll be back 
+489 hey this is great man 
+490 this sux 
+491 houston we have a problem 
+492 we came we saw we kicked its ass 
+493 Frankly son, you frighten me 
+494 You're mocking me, aren't you 
+495 Don't even think about it cowboy 
+496 We come in peace and you blatantly defile that peace 
+497 C'mon, gimmie a break 
+498 mongols! we are doomed for certain 
+499 You weak pathetic fool 
+500 bad to the bone 
+501 I would not do such things if I were you 
+502 Leave me alone 
+503 Do you feel lucky, punk 
+504 When my work is finished, i'm coming back for you 
+505 Listen bro, you got a problem with my coolness unh unh unh 
+506 Muse - Uprising 
+507 brain 
+508 cartmancop2 
+509 veryangry 
+510 Homer Simpson911 
+511 Warning 
+512 Whos The Brains in this Outfit 
+513 Wus 
+514 You know, sometimes I feel like you guys don't want me to 
+515 I seem to have died Is that okay 
+516 Boy, the potential for something to happen is very high 
+517 There's about a 1 in 4 chance  we're gonna 
+518 I can be your best friend or your worst enemy 
+519 radetzky 
+520 sabre_dance 
+521 vivaldi 
+522 toccata-all 
+523 goodbadugly 
+524 Identify yourself 
+525 Over, nothing is over until we decide it is 
+526 The women, how much for the women 
+527 My advice to you, start drinking heavily 
+528 Let's go, let's go, I'm bored, let's go 
+529 That has already happened once, it must never, never happen again 
+530 Retreat is no longer an option 
+531 (Half Baked) - Fuck You! 
+532 The force will be with you, always 
+533 Might I have the pleasure of your name before I have you run through 
+534 Help, help, I'm being repressed 
+535 I saw a pale horse with a pale rider 
+536 And monkeys might fly out of my butt 
+537 aaaaaawwwwwYEAAAAA!! 
+538 Boring 
+539 Haters gonna hate 
+540 Do you want to go one on one with the great one 
+541 Very shagadelic 
+542 Smashing baby 
+543 They're always after me lucky charms 
+544 I really gotta pee 
+545 shutup shutup shutup 
+546 Be vewy vewy quiet, I'm hunting wabbits! 
+547 roland's quest - rochester is defeated 
+548 Here They Come - Fire 
+549 Shutup and go and change your armor 
+550 Alright, we'll call it a draw 
+551 I move for no man 
+552 You fight with the strength of many men sir knight 
+553 Victory is mine, ahh damn u all 
+554 hey girl you looking good, wanna come back to my place and derp 
+555 What are they paying you - I'll double it 
+556 You're useless every one of you 
+557 Well Well we meet again 
+558 Time to be bad 
+559 I like big butts and i cannot lie 
+560 I like them round and big 
+561 Its Over 9000!!! 
+562 THIS IS SPARTA!!!!!!!! 
+563 Oh I think I'll manage 
+564 This is Sparta Remix!!! 
+565 Why This Kolaveri Di 
+566 baby crying (autotuned) 
+567 We looking for you, we gon find you 
+568 You are so dumb 
+569 They're dead you know 
+570 Fire in the hole! (CS) 
+571 Enemy down (CS) 
+572 We're doomed 
+573 We seem to be made to suffer 
+574 dont do that 
+575 dont touch me 
+576 nice try but I'm afraid you can't do that 
+577 oh my god 
+578 Uh oh, Retard alert! 
+579 That was too easy 
+580 I will be standing by to assist you if needed 
+581 A warrior does not complain about physical discomfort 
+582 I'm not asking you, I'm telling you 
+583 I've been looking for you 
+584 Oh no, we're all doomed 
+585 Death stalks you at every turn, aaah, there it is 
+586 Are you mental 
+587 Not 
+588 I know your admiration for me is great, as it should be 
+589 Be gone - you have occupied my lands for far too long 
+590 Bowmen ready 
+591 Draw arrows 
+592 Attack 
+593 You are a coward and a weakling, invading you will be a pleasure 
+594 All must fall before the might and right of my cause, you shall be first 
+595 Death, what do you all know about death 
+596 Goodluck, youre gonna need it 
+597 Hello yoohoo anybody here 
+598 ct Need Backup (CS) 
+599 Laughter 
+600 €heckMate 
+601 OMG i know you hacked! 
+602 WTF you hacker! 
+603 WTF happening to my computer 
+604 BOOM HEADSHOT 
+605 Get in Position (CS) 
+606 Stick Together Team (CS) 
+607 Follow Me (CS) 
+608 I'm Hit Need Assistance (CS) 
+609 Cover Me (CS) 
+610 ct I'm in Position (CS) 
+611 Roger That! (CS) 
+612 Regroup Team (CS) 
+613 Meet at the Rendezvous point (CS) 
+614 It doesnt matter what your name is 
+615 Enemy Down (CS) 
+616 GO GO GO (CS) 
+617 Lets Go (CS) 
+618 trumpet playing - taps 
+619 Now you see that evil will always triumph 
+620 Survivor 23 South Pacific Makeshift Intro 
+621 Team Let's Get Out Of Here (CS) 
+622 Need Backup (CS) 
+623 you tried you best, and you failed miserably 
+624 The Beatles - Help 
+625 (Clint) Dying 
+626 (Clint) Make My Day 
+627 (Charlie Brown) Oh Good Grief 
+628 (Charlie Brown) You better cut it out or I'll pound you 
+629 welcome 
+630 goodbye 
+631 Wazaaaa 
+632 Wazaa 
+633 watching the game, having a bud 
+634 Wazaaaa 
+635 Wazaa 
+636 nuttin b, just watching the game, having a bud 
+637 nothing, watching the game, having a bud 
+638 Anytime you wanna get into the fight just jump on in 1 
+639 Try to distract him, i've got a plan 
+640 That was a cowards tactic 
+641 Its too late to surrender now 
+642 All Your Base Are Belong to Us 
+643 Ha Ha Ha 
+644 All Your Base Are Belong To Us 
+645 BaseBaseBaseBaseBaseYou Have No Chance To Survive Make Your Time 
+646 (Aliens) Just Gotta Know Where they Are 
+647 (Aliens) What are We Going to Do Now 
+648 (Aliens) Just Got our Asses Kicked 
+649 (Aliens) Now What Are We Supposed to Do 
+650 Nelson - Ha Ha [Original] 
+651 WERE LOSING!!! they're burrying us alive- (Slap Shot) 
+652 We're gonna Win!! haha 
+653 Ahh! you Eediot! 
+654 HahAhahaHa 
+655 takefreedom 
+656 bye bye boys, have fun storming the castle 
+657 you'd like to think that wouldn't you 
+658 are you ready for a war Yeah 
+659 I dont like your jerkoff face 
+660 hahahaha GOT EM! 
+661 Ren laugh 
+662 Ren laugh 2 
+663 I'm Not Dead 
+664 I warned you but did you listen to me oh no you no 
+665 gonna kill us, run, RUN! 
+666 Samara's grudge 
+667 Why wont they leave me alone! 
+668 Oh what i'm gonna do to you 
+669 Uuuhuhuhuhuhu (scared) 
+670 pffft Oh, you farted 
+671 (Andres Cantor) GooooooooL!!! 
+672 Blue (Da Ba Dee) 
+673 Give me RED! yeah i want red! 
+674 Open this gate! 
+675 May i have your attention please 
+676 go away, i'm busy 
+677 Will the real Slim Shady please stand up 
+678 Now this looks like a job for me so everybody just follow me 
+679 You're living in a world of make believe, with flowers and leprechauns 
+680 snore 
+681 you're ugly and your mother dresses you funny 
+682 Burp 
+683 Oh that was painful wasnt it 
+684 I hope he's well insured 
+685 I Get Knocked Down, then I Get Up Again 
+686 If you wanna be happy for the rest of your life 
+687 Yeeehaaa 
+688 To start press any key 
+689 I'll teach you to come near my city 
+690 Xena scream 
+691 You just made a fatal mistake mister candyass 
+692 (Kill Bill) The whistle song 
+693 (Kill Bill) uhu uhuhu song! 
+694 (Kill Bill) crazy red eyes fight - opening! 
+695 hey, Hey, HEY, you trying to rush us 
+696  (Kill Bill) crazy red eyes fight 
+697 YOU GOT KNOCKED THA FUGGG OUT! 
+698 Whip It 
+699 oooooh yeah, OOOH yeeeeah 
+700 (Dennis Leary) Asshole 
+701 (Dennis Leary) and proud of it 
+702 Who is this person who speaks to me 
+703 (Dexter) I OWN YOU 
+704 Assault the base 
+705 I need some backup 
+706 Boom 
+707 Burn baby 
+708 Cover me 
+709 cya 
+710 Defend the base 
+711 Objective destroyed 
+712 DirtBag 
+713 Ive got u covered 
+714 Ive got your back 
+715 Hahaha 
+716 Hang in there 
+717 Hold this position 
+718 That had to hurt 
+719 Im on it 
+720 Im in position 
+721 Lets Rock 
+722 Ya like that 
+723 Loser 
+724 You have lost the match 
+725 That was nasty 
+726 Next 
+727 Nice 
+728 OhYea 
+729 OnMyWay 
+730 Im in position 
+731 Roger that 
+732 Search and destroy 
+733 I just slaughtered that guy 
+734 Sucker 
+735 You be dead 
+736 Im under heavy attack 
+737 Useless 
+738 Anyone else want some 
+739 OMG Who the hell cares! 
+740 cause i am a noob 
+741 you are ugly when you're angry 
+742 get lost you maggot 
+743 come on man 
+744 there's no need to fear, underdog is here 
+745 for the tenth time if you don't shut up 
+746 guns dont kill people, the goverment does 
+747 Snap - The power2 
+748 say that shit to my face 
+749 I am the devil 
+750 is that one of those 976 numbers, what are you wearing 
+751 i was abused as a child 
+752 laugh 
+753 i want action tonight 
+754 ah man 
+755 ah shit 
+756 I ain't playing with your bitch ass 
+757 amen brothers and sisters 
+758 i dont think i have enough ammo 
+759 cheers, from crowd 
+760 we're putting that bitch on ice 
+761 is this the right room for an arguement 
+762 i was totally aroused by that 
+763 i do the ass kickin round here 
+764 asshole of the year you get my vote ok 
+765 pay attention boys ill show u how its done 
+766 ay ay ay ay ay ay ay 
+767 before we go further lets get something straight 
+768 meow meow shut the fuck up will ya 
+769 ive a feeling some bad stuffs goin down 
+770 you stupid ignorant son of a bitch dumb bastard 
+771 sir, im afraid im gonna have to kick your ass 
+772 my friend dont be a jerk 
+773 rap music 
+774 im the best quote 
+775 you have awakened my bunghole, now u must pay 
+776 another one bites the dust 
+777 Got anything else to say 
+778 If you ain't good we're blowing it up 
+779 that guy's coming home in a body bag 
+780 what in the hell's a matter with you i was joking 
+781 bruised, battered, but never defeated 
+782 Sure you lost, you lost bad (futurama) 
+783 oh my god we're burning alive 
+784 this stuff is dangerous it'll burn you face off 
+785 little man i've had a busy day 
+786 tell ya mother you're not coming home 
+787 dont make me do this, i cannot 
+788 i just cant do it captain 
+789 people like me im the champ 
+790 please come out, please 
+791 you guys wanna compare weiners or what 
+792 i'm gonna run a makeover on your face 
+793 If i take a crowbar and base your teeth in you jerk 
+794 crying 
+795 Don't fall asleep 
+796 Your suffering will be legendary, even in hell 
+797 Boy, you're hurting me 
+798 green day - do you have the time to listen to me wine 
+799 green day- sometimes I give myself the creeps 
+800 alice cooper - welcome to my nightmare 
+801 deep purple-smoooooke on the waaaatteeerrr 
+802 stan freberg-Daaay ooo 
+803 yes yes oh yes can u feel that buddy 
+804 thems fighting words 
+805 black sabbath-I am iron man 
+806 tom petty good to be king 
+807 you know what you're full of shhh 
+808 acdc-I'm on the highway to hell 
+809 get away from me u stupid idiot 
+810 full I want some  mo 
+811 teh n00b song 
+812 my name is kid rock 
+813 green jelly - let me in 
+814 green jelly - rambo 
+815 evil is his name 
+816 how many people wanna kick some ass 
+817 I do I do 
+818 want a piece of me 
+819 I want the whole thing 
+820 think you've had enough 
+821 wanna hear the most annoying sound in the world 
+822 ray finkle 
+823 Three Stooges - Nyuk Nyuk Nyuk 
+824 I was way off 
+825 I explain this so you can understand 
+826 watch me make sure I don't do anything stupid 
+827 sole survivor 
+828 you know what the scariest thing is 
+829 i'm a loser 
+830 Monkey shit 
+831 i'm gunna eat ya 
+832 I'm bigger then you, i'm higher in the food chain! 
+833 get in my belly come on 
+834 you're lucky wee man 
+835 let me make you a deal allright 
+836 riiiiiiiiiiiiiiiight 
+837 (Scarface) You're a piece of shit you fuckin cockroach 
+838 Queen - we are the champions 
+839 We've kicked so much butt our legs are tired 
+840 help we're being brain washed 
+841 You're a VIRGIN 
+842 rip out your eyes 
+843 cock juggling thunder cunt! 
+844 Yeah but, i'm gonna get shot 
+845 how would you like to suck my balls 
+846 well larr de fuckin dar 
+847 im as mad as hell and i'm not gonna take this anymore 
+848 why dont you let me pull that stick right on out that ass of yours 
+849 suck my balls 
+850 no more mister nice guy 
+851 You insignifiCUNT! 
+852 this whole place sucks 
+853 what u waiting for christmas 
+854 cut me some slack jack 
+855 You ahve the right not to be an asshole 
+856 I want the truth 
+857 you can't handle the truth 
+858 you want some more of that, i didn't think so 
+859 you ain't cool, unless you pee your pants 
+860 slow down 
+861 what happened to him what happened to me 
+862 trouble with the radar 
+863  shouting 
+864 i'm the king of the world!!! 
+865 I see dead people 
+866 sorry sir, doing my best 
+867 who is he 
+868 he's an asshole sir 
+869 how many assholes we got on this ship 
+870 I knew it 
+871 keep firing 
+872 what are we looking at 
+873 when will then be now 
+874 prepare to attack 
+875 Worthless cocksucker! 
+876 what the hell was that 
+877 smoke em if ya got em 
+878 what should we do now sir 
+879 You can all go fuck yourselves 
+880 im sorry this is what becomes of living under a nazi reg 
+881 Im the Juggernaut, bitch! 
+882 i dont like confrontations 
+883 theres no sign of intelligent life anywhere 
+884 for tonight, we dine IN HELL 
+885 dont even think about it cowboy 
+886 wheres your honor dirtbag 
+887 farewell my friend, i go on to a better place 
+888 Aloha (FIFA 2006) 
+889 the line must be drawn here 
+890 I will make them pay for what they've done 
+891 I'm still alive but i'm injured 
+892 who wants to have some fun 
+893 (darth vader) NOOOOOO 
+894 I will massacre you 
+895 War what is it good for 
+896 absolutely nothing 
+897 Well excuse me but fuck you 
+898 microphone checker 
+899 barbeque your ass 
+900 Where are those blasted  
+901 You would need 3 promotions to get to be an asshole 
+902 but what would I wear 
+903 I'll cut your nuts off 
+904 fuck off shit eater 
+905 You stupid FUCK 
+906 Go FUCK yourself 
+907 Cut your heart out with a spoon 
+908  hey what are u up to 
+909 Rip your spine out i swear 
+910  it's almost too easy 
+911 NO GOD! PLEASE NO!!! NOOOOOOOOOO 
+912 waynes world- no way 
+913 he's gunna be ooo k 
+914 shut your anorexic ass up 
+915  laughing 
+916 wow your amazing dude 
+917 Ass licking son of a bitch 
+918 hey mr 
+919 Son of a whore bitch 
+920 t-rex roar 
+921 killer boots man! 
+922  i love the smell of napalm in the morning 
+923 yeeehhhhaaaooo 
+924 cable guy- maybe I shouldn't have come at all, jerkoff 
+925 (cable guy) i'm kind of a perfectionist 
+926 cable guy- no sweat off my sac 
+927 cable guy-who told you that, what's his name 
+928 You imbecile idiot 
+929 cable guy - ha ha ha you are too easy 
+930 no way 
+931 lets get it on 
+932 cable guy- prison rules huh 
+933 im gonna get you sucka 
+934 so that's what opening a can of whoopass feels like 
+935 wherever there is 
+936 we'll be there 
+937 you will find the 3 amigos 
+938 You are NOTHING 
+939 I'm gonna bash your brains in 
+940 STFU! im gonna kill you 
+941 Say what again i dare you! 
+942 GET OVER HERE!!!! 
+943 FINISH HIM !! 
+944 FATALITY ! 
+945 FATALITY 2 
+946 BABALITY ! 
+947 Flawless Victory 
+948 Finish Him Flawless Victory Fatality 
+949 o that sux 
+950 alright who wants some 
+951 got news 4 u jack and shit 
+952 feel free to jump in at any time 
+953 scared mofo well u should be 
+954 i cant take it any more 
+955 were doomed mr head 
+956 I will fucking destroy you 
+957 for gods sake get on with it 
+958 no go to hell 
+959 thats gotta hurt 
+960 I'm gonna hit you so hard, it will make your ancestors dizzy 
+961 Rip your balls off 
+962 i've met some dumb bastards in my life but 
+963 revenge is so very sweet 
+964 no way dood were not stopin in your house 
+965 bad boys music 
+966 flash-queen 
+967 missed me 
+968 i would not do such things if i were u 
+969 burp, excuse me 
+970 What's going on around here 
+971 tilt one back with me dogg 
+972 i love blowing things up 
+973 peter griffin laughing 
+974 argh there's no hope for this lad 
+975 do you feel lucky punk 
+976 that doesn't hurt 
+977 stop that incessant clicking 
+978 when my work is finished im coming back for u 
+979 drowning sound 
+980 chicken sound 
+981 shutup 
+982 you stink 
+983 It's funny cause it's true 
+984 YOU'RE A NOOB! 
+985 I know what i'm doing man, stfu 
+986 La Gente Sabe 
+987 Marky Mark Is Here 
+988 small voice allelujah 
+989 small voice please dont kill me 
+990 You have something on your face, got it 
+991 Warriors, come out to play 
+992 I wanna hear you scream 
+993 No tears please 
+994 who da fuck do you think you're talking to 
+995 Bond, James Bond 
+996 The Joker - Why so serious 
+997 HahahaHaHa You Serious 
+998 I am seeing double, shoot them both! 
+999 (Scarface) Say Hello To My Little Friend 
+
+=====[CUSTOM MUSICS]=====
+bigsmoke big smokes order
+perkele perkele.
+doit JUST DO IT.
+blazeit MLG MUSIC!!!

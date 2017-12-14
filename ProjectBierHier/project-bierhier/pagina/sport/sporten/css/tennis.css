@@ -1,0 +1,235 @@
+div.nav {
+    min-width: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    /*#feffff*/
+    padding: 16px;
+    height: 86px;
+    width: 100%;
+    /*-webkit-box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+    /*-moz-box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+    /*box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+
+}
+
+div.nav img.logo {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+
+}
+
+div.nav #img {
+    transition: .8s;
+
+    visibility: visible;
+    overflow: visible;
+    float: right;
+    position: relative;
+    top: 0;
+    margin-right: 24px;
+    margin-top: 13px;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    /*padding-top: 27px;*/
+    /*padding-bottom: 27px;*/
+    /*padding: 27px 5% 27px 5%;*/
+    height: 28px;
+    width: 28px;
+    z-index: 999999;
+    /*overflow:visible;*/
+}
+
+div.nav #img:hover {
+    transition: .3s;
+    padding-left: 1px;
+    padding-right: 1px;
+    opacity: 0.7;
+
+}
+
+a.redirect {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    left: 10%;
+    text-decoration: none;
+    transform: translateX(-50%);
+}
+
+a.logotext {
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 13.5%;
+    top: 6px;
+    transform: translateX(-50%);
+    /*-webkit-animation: tada 0.95s;*/
+    /*animation: tada 0.95s;*/
+    /*ANIMATE.CSS is doing weird.*/
+}
+
+div.nav a.contact, a.overons, a.recepten, a.sport, a.concerten {
+    transition: .6s;
+    margin-right: -4px;
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: -70px;
+    /*color: #9aa5a8;*/
+    float: right;
+    right: 32%;
+
+}
+
+div.nav a.contact:hover, a.overons:hover, a.recepten:hover, a.sport:hover, a.concerten:hover {
+    transition: .6s;
+    color: #f45616;
+
+}
+
+div.nav a.sport {
+    right: 48%;
+}
+
+div.nav a.contact, a.concerten {
+    right: 34%;
+}
+
+div.nav a.concerten {
+    right: 22%;
+    top: -74px;
+    z-index: 123897129837;
+}
+
+.sidenav {
+    transition: 300ms linear;
+    height: 260px;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 86px;
+    left: 0;
+    background-color: #737373;
+    overflox-x: hidden;
+<!-- ? ? ? --> transition: 0.5s;
+    padding-top: 86px;
+}
+
+.sidenav a {
+    position: relative;
+    transition: 150ms linear;
+    top: -70px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #dce9de;
+    display: block;
+    transition: 0.3s;
+}
+
+/*=======================================================================================================*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', cursive;
+}
+
+body {
+    padding-top: 86px;
+    z-index: 9998;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+div.wrapper {
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+    background-color: #b0d97d;
+}
+
+/*flex box*/
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+
+}
+
+.child1 {
+    width: 50%;
+    margin: 10px;
+}
+
+.child1 img, .child2 img {
+    width: 100%;
+}
+
+.child2 {
+    width: 50%;
+    margin: 10px;
+}
+
+.child1 a, .child2 a {
+    margin-left: 10px;
+    font-size: 40px;
+    margin-bottom: 10px
+}
+
+@media screen and (max-width: 450px) {
+    .child1 a, .child2 a {
+        font-size: 15px;
+    }
+}
+
+/*end of flexbox*/
+
+/*new flex box*/
+.textcontainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.textchild1, .textchild2, .textchild3 {
+    margin-right: 2%;
+}
+
+.textchild4 img {
+    width: 100%;
+}
+
+/*footer*/
+footer {
+    width: 75%;
+    margin: auto;
+    background-color: #bababa;
+    padding-left:2%;
+    padding:30px;
+    font-family: 'Ubuntu', cursive;
+}
+
+div.sitel {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.footer a {
+    display: block;
+    line-height: 140%;
+}

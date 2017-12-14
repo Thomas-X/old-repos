@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZalaSpa vakantievilla's met zwembad - Luxe Vakantievilla's met zwembad huren in Hongarije</title>
+    <!--metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700" rel="stylesheet">
+    <!--css-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/turbooctowaffle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+        var st;
+        window.onload = function () {
+            st = $(this).scrollTop();
+            if (st > 100) {
+                smaller()
+            }
+            if (st < 100 && st >= 0) {
+                larger()
+            }
+
+
+        }
+        $(function () {
+            $(window).scroll(function (event) {
+                st = $(this).scrollTop();
+                if (st > 100) {
+                    smaller()
+                    //smaller
+                }
+                if (st < 100 && st >= 0) {
+                    larger()
+                    //larger
+                }
+            });
+        });
+
+        function smaller() {
+            document.getElementById("nav").setAttribute("style", "width:75%;");
+            document.getElementById("logoNav").setAttribute("style", "padding:5px;");
+            document.getElementById("container").className = "container is-float";
+        }
+        function larger() {
+            document.getElementById("nav").setAttribute("style", "width:85%;");
+            document.getElementById("logoNav").setAttribute("style", "padding:15px;");
+            document.getElementById("container").className = "container";
+        }
+    </script>
+</head>
+<body>
+<nav class="container" id="container">
+    <div id="nav" class="nav navcontainer"><!--Navcontainer, this is where all the nav stuff goes. -->
+
+        <div class="nav navcontainer logocontainer">
+            <!--Container, inside navcontainer for logo's and e.g company name on the LEFT SIDE-->
+
+            <img src="img/logo.png" class="nav navcontainer logocontainer" id="logoNav">
+
+
+        </div><!--Closing of logocontainer-->
+
+        <div class="nav navcontainer textcontainer">
+            <!--Containser, inside navcontainer for navtext, stuff like 'contact', 'about', etc. on the RIGHT SIDE-->
+
+            <a class="nav navcontainer textcontainer is-text">Sample</a>
+
+            <a class="nav navcontainer textcontainer is-text">Sample</a>
+
+            <a class="nav navcontainer textcontainer is-text">Sample</a>
+
+        </div><!--Closing of textcontainer-->
+
+    </div><!--Closing of navcontainer-->
+</nav>
+
+<div class="img">
+
+    <div class="textContainer">
+        <span>Betaalbare luxe vakantievilla's met zwembad en sauna!</span>
+    </div>
+
+</div>
+
+<div class="banner">
+
+    <div class="wrapper" id="wrapperBanner">
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+    </div>
+
+</div>
+<div class="banner2">
+
+    <div class="wrapper" id="wrapperBanner2">
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+    </div>
+
+</div>
+<div class="banner2">
+
+    <div class="wrapper" id="wrapperBanner2">
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+        <button class="btn is-info is-large">Filler buttons</button>
+    </div>
+
+</div>
+
+<div class="banner">
+
+    <div class="wrapper" id="wrapperBanner">
+
+        <h1>FOOTER</h1>
+        <h1>FOOTER</h1>
+        <h1>FOOTER</h1>
+        <h1>FOOTER</h1>
+        <h1>FOOTER</h1>
+    </div>
+
+</div>
+
+
+
+<!--bootstrap js & jquery-->
+<script src="js/toggle.js"></script>
+
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+
+</body>
+</html>

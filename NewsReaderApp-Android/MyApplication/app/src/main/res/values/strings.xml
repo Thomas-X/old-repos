@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NewsReaderApp</string>
+    <string name="noNetwork">No network connection.</string>
+    <string name="empty">No news data found.</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="Settings">News Settings</string>
+
+    <string name="settings_nightmode">Nightmode</string>
+
+
+
+    <string name="settings_default">Off</string>
+    <string name="settings_nightmode_on">On</string>
+
+    <string name="settings_on_label">On</string>
+    <string name="settings_off_label">Off</string>
+
+
+    <!--navigation menu toggle strings (because android)-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <!--default news source-->
+    <string name="newsSourceDefault">Ars Technica</string>
+
+
+</resources>

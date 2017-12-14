@@ -1,0 +1,29 @@
+{
+  "name": "Qoirry",
+  "version": "1.0.0",
+  "description": "a discord bot",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "discord.js": "^11.0.0",
+    "googleapis": "^18.0.0",
+    "opusscript": "0.0.3",
+    "request": "^2.81.0",
+    "ytdl-core": "^0.10.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-X/discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Thomas-X",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-X/discord-bot/issues"
+  },
+  "homepage": "https://github.com/Thomas-X/discord-bot#readme"
+}

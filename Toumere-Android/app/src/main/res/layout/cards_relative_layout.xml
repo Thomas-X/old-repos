@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/rootContainer"
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgHeaderContainer">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+
+                android:id="@+id/imageBig"
+
+                android:contentDescription="img"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14pt"
+                android:background="@drawable/gradient"
+                android:textColor="@color/headerTitle"
+                android:paddingLeft="5dp"
+                android:layout_alignParentBottom="true"
+
+                android:id="@+id/titleHeader"
+
+        />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/textContainer"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_below="@+id/imgHeaderContainer"
+    >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:id="@+id/shortText"
+        />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/cardButtonText"
+                android:textColor="@color/buttonColour"
+                android:textSize="14sp"
+                android:drawSelectorOnTop="true"
+                android:background="#00ffffff"
+                android:padding="10dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_alignParentRight="true"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:id="@+id/readMoreButton"
+
+        >
+        </Button>
+
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

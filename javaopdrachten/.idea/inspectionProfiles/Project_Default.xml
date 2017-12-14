@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Duplicates" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <scope name="Default" level="WEAK WARNING" enabled="false">
+        <option name="myFilterOutGeneratedCode" value="true" />
+      </scope>
+      <option name="myFilterOutGeneratedCode" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

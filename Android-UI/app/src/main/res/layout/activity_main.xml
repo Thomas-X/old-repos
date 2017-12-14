@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="thomas_x.myjava.MainActivity">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/paw"
+            android:id="@+id/imageView"
+            android:adjustViewBounds="false" android:cropToPadding="false"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary"
+            android:layout_height="60dp"/>
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/placeKitten"
+            android:src="@drawable/placekitten"
+            android:layout_below="@+id/imageView"
+            android:scaleType="centerCrop" android:layout_height="200dp"/>
+
+    <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/placeKitten" android:layout_centerHorizontal="true">
+
+        <TextView
+                android:id="@+id/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kittycam"
+                android:textColor="#333"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"/>
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_below="@+id/headerText" android:id="@+id/markerLayout" android:paddingLeft="4dp"
+        >
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/marker"
+                       android:id="@+id/marker"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp"
+                      android:text="kittycamkittycamkittycam" android:layout_toRightOf="@+id/marker"
+                      android:gravity="center_vertical"/>
+
+        </RelativeLayout>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkbox"
+                android:paddingLeft="0dp"
+                android:layout_below="@+id/markerLayout" android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" android:duplicateParentState="false"/>
+
+        <TextView
+                android:id="@+id/headerText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kittycam2"
+                android:textColor="#333"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_below="@+id/checkbox"/>
+
+
+        <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales sapien eu metus commodo varius.
+
+raesent facilisis orci eu velit luctus, nec vulputate dui viverra. Etiam suscipit bibendum nunc eget pulvinar. Vestibulum
+
+sit amet est varius, viverra neque ac, imperdiet justo. In laoreet urna turpis, eget vulputate erat aliquam auctor."
+                android:textColor="#333"
+                android:textSize="15sp"
+                android:maxLines="100"
+                android:layout_below="@+id/headerText2"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+

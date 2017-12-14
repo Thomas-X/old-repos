@@ -1,0 +1,196 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+var debug = require('debug')('betsgg:server');
+var http = require('http');
+const axios = require('axios');
+const chalk = require('chalk');
+const Bet = require('../models/Bet');
+const CurrentBet = require('../models/CurrentBet');
+const WinLose = require('../models/WinLose');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+
+var server = http.createServer(app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort (val) {
+    var port = parseInt(val, 10);
+
+    if (isNaN(port)) {
+        // named pipe
+        return val;
+    }
+
+    if (port >= 0) {
+        // port number
+        return port;
+    }
+
+    return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError (error) {
+    if (error.syscall !== 'listen') {
+        throw error;
+    }
+
+    var bind = typeof port === 'string'
+        ? 'Pipe ' + port
+        : 'Port ' + port;
+
+    // handle specific listen errors with friendly messages
+    switch (error.code) {
+        case 'EACCES':
+            console.error(bind + ' requires elevated privileges');
+            process.exit(1);
+            break;
+        case 'EADDRINUSE':
+            console.error(bind + ' is already in use');
+            process.exit(1);
+            break;
+        default:
+            throw error;
+    }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+const getBets = () => {
+    setTimeout(() => {
+        axios.get('https://bets.gg/v3/crash/history').then((response) => {
+
+            const { data } = response;
+
+            console.log('did request!');
+
+            let onlyUnique;
+
+            // queries
+            const betQuery = Bet.find({}, null, {limit: 20});
+            const currentBetQuery = CurrentBet.find({}, null, {limit: 20});
+            const WinloseQuery = WinLose.find({}, null, {limit: 20});
+
+            betQuery.exec((err,bets) => {
+                bets.slice(Math.max(bets.length - 10), 1);
+
+                onlyUnique = data.filter((item) => {
+                    let removeItem = true;
+                    bets.forEach((elem) => {
+                        if (elem.hash === item.hash) {
+                            removeItem = false;
+                        }
+                    });
+                    return removeItem;
+                });
+                data.forEach((elem, index) => {
+                    elem.at = elem.at.replace(/[^0-9.]/g, '');
+                });
+
+                currentBetQuery.exec((err1, currentbets) => {
+                    currentbets.slice(Math.max(currentbets.length - 10), 1);
+                    WinloseQuery.exec((err2, winloses) => {
+                        if (err1 || err2) {
+                            console.log(err1, err2);
+                        }
+
+                        // currentBet is pullout time.
+                        let currentBet;
+                        if (currentbets.length > 0) {
+                            currentBet = currentbets[currentbets.length - 1].currentBet;
+                        } else {
+                            currentBet = 2;
+                        }
+
+
+                        if(onlyUnique.length > 0) {
+                            onlyUnique.forEach((elem, index) => {
+                                // we lose
+                                if (elem.at < currentBet) {
+                                    currentBet -= 0.01;
+                                    WinLose.create({ win: false, lose: true });
+                                }
+                                // we win
+                                if (elem.at > currentBet) {
+                                    currentBet += 0.01;
+                                    WinLose.create({ win: true, lose: false });
+                                }
+
+
+                                if (index + 1 === onlyUnique.length) {
+                                    CurrentBet.create({
+                                        currentBet: currentBet,
+                                    }, (err) => {
+                                        if (!err) {
+                                            createBets(0);
+                                        } else {
+                                            console.log(err);
+                                        }
+                                    });
+                                }
+                            });
+                        } else {
+                            getBets();
+                        }
+                    });
+                });
+
+                const createBets = (n) => {
+                    const elem = onlyUnique[n];
+                    if (n < onlyUnique.length) {
+                        Bet.create({
+                            at: elem.at,
+                            hash: elem.hash,
+                            key: elem.key,
+                        });
+                        n++;
+                        createBets(n);
+                    } else {
+                        getBets();
+                    }
+                };
+            });
+        }).catch((err) => {
+            console.log(err);
+            getBets();
+        });
+    }, 5000);
+};
+
+function onListening () {
+    var addr = server.address();
+    var bind = typeof addr === 'string'
+        ? 'pipe ' + addr
+        : 'port ' + addr.port;
+    debug('Listening on ' + bind);
+    getBets();
+}

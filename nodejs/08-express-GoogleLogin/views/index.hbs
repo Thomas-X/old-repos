@@ -1,0 +1,8 @@
+{{#if authenticated}}
+    <h1>{{title}}</h1>
+    <p>Welcome, {{title}}</p>
+{{/if}}
+
+{{#if notAuthenticated}}
+    <a href="/auth/google">Sign In with Google</a>
+{{/if}}

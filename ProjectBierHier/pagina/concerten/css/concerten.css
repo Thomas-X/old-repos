@@ -1,0 +1,322 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;;
+}
+
+body {
+    padding-top: 86px;
+    z-index: 9998;
+    margin: 0;
+    height: 100%;
+    background-image: url('../img/festivalhands.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* nav bar begin*/
+
+div.nav {
+    min-width: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    /*#feffff*/
+    padding: 16px;
+    height: 86px;
+    width: 100%;
+    /*-webkit-box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+    /*-moz-box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+    /*box-shadow: 0px 3px 3px 0px rgba(158, 156, 158, 1);*/
+
+}
+div.nav img.logo {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+
+}
+
+div.nav #img  {
+    transition: .8s;
+
+    visibility: visible;
+    overflow:visible;
+    float:right;
+    position: relative;
+    top:0;
+    margin-right:24px;
+    margin-top:13px;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    /*padding-top: 27px;*/
+    /*padding-bottom: 27px;*/
+    /*padding: 27px 5% 27px 5%;*/
+    height:28px;
+    width:28px;
+    z-index:999999;
+    /*overflow:visible;*/
+}
+
+div.nav #img:hover {
+    transition: .3s;
+    padding-left:1px;
+    padding-right:1px;
+    opacity:0.7;
+
+}
+
+a.redirect {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    left: 10%;
+    text-decoration:none;
+    transform: translateX(-50%);
+}
+
+a.logotext {
+    text-decoration:none;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 13.5%;
+    top: 6px;
+    transform: translateX(-50%);
+    /*-webkit-animation: tada 0.95s;*/
+    /*animation: tada 0.95s;*/
+    /*ANIMATE.CSS is doing weird.*/
+}
+
+div.nav a.contact, a.overons, a.recepten, a.sport, a.concerten {
+    transition: .6s;
+    margin-right: -4px;
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: -70px;
+    /*color: #9aa5a8;*/
+    float: right;
+    right:32%;
+
+}
+
+div.nav a.contact:hover, a.overons:hover, a.recepten:hover, a.sport:hover, a.concerten:hover {
+    transition: .6s;
+    color: #f45616;
+
+}
+
+div.nav a.sport {
+    right:48%;
+}
+
+div.nav a.contact, a.concerten {
+    right:34%;
+}
+
+div.nav a.concerten {
+    right:22%;
+    top:-74px;
+    z-index: 123897129837;
+}
+
+.sidenav {
+    transition:300ms linear;
+    height:260px;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top:86px;
+    left: 0;
+    background-color:#737373;
+    overflox-x: hidden; <!--???-->
+    transition: 0.5s;
+    padding-top:86px;
+}
+
+.sidenav a {
+    position:relative;
+    transition:150ms linear;
+    top: -70px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #dce9de;
+    display: block;
+    transition: 0.3s;
+}
+
+/* nav bar end */
+
+
+.fullwidthimg img {
+    width:100%;
+    height:600px;
+    -webkit-filter: brightness(70%);
+
+}
+
+.fullwidthimgtekst {
+    display:block;
+    font-size:40px;
+    width:637.88px;
+    transform:translateY(-695%);
+    position:relative;
+    margin:0 auto;
+    font-family: 'Ubuntu', cursive;
+    color: #feffff;
+}
+
+div.balk {
+    position:absolute;
+    top:686px;
+    height: 152px;
+    width: 100%;
+    background-color: #fba026;
+    font-family: 'Ubuntu', cursive;
+    padding: 34px;
+
+
+    /*text-align: center;*/
+}
+
+div.balk a.gemaakt {
+
+    font-weight: bold;
+}
+
+div.balk a.namen {
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.balk a.tekstbalk {
+    white-space:nowrap;
+    font-family: 'Ubuntu', cursive;
+    display:block;
+    text-align:center;
+    position: relative;
+    margin: 0 auto;
+    font-size: 60px;
+    /*transform:translateY(33%);*/
+}
+
+
+.wrapper {
+    left:12.5%;
+    display:block;
+    width: 75%;
+    top:838px;
+    margin: auto;
+    background-color: #26ADFB;
+    height:1136px;
+    /*max-height:920px;*/
+    padding:30px;
+    position:absolute;
+}
+
+.bigimg img {
+    position:relative;
+    top:35px;
+    max-width:1000px;
+    max-height: 2096px;
+    width:45%;
+    height:330px;
+    float:left;
+    padding-bottom:50px;
+}
+
+.schemaconcerten img {
+    width:41%;
+    height:10%;
+    position:relative;
+    float:left;
+    top:35px;
+    margin-left:10%;
+}
+
+.concertentekst {
+    width:100%;
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Ubuntu', sans-serif;
+    position:relative;
+    float:right;
+    text-align:right;
+    padding-right: 6%;
+}
+
+.flex-container {
+    float:right;
+    max-width:1600px;
+    display: -webkit-flex;
+    display: flex;
+    width:80%;
+    height:250px;
+    position:relative;
+    top:68px;
+    margin-right:15px;
+}
+
+.flex-item, .flex-item img, .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
+    transition: 500ms;
+    width:23%;
+    height:125px;
+    margin: 10px;
+
+}
+
+.flex-item1:hover, .flex-item2:hover, .flex-item3:hover, .flex-item4:hover {
+    transition: 500ms;
+    transform: scale(1.05);
+    -webkit-filter: brightness(85%);
+    cursor:pointer;
+}
+
+.meerconcerten {
+    float:left;
+    position:relative;
+    width:10%;
+    font-size:15px;
+    font-family:'Ubuntu';
+    font-weight:bold;
+    top:130px;
+    margin-left:5%;
+
+}
+
+footer {
+    max-height:920px;
+    position:absolute;
+    width: 75%;
+    top:1971px;
+    left:12.5%;
+    height:250px;
+    margin: auto;
+    background-color: #BABABA;
+    padding-left:2%;
+    padding:30px;
+    font-family: 'Ubuntu', cursive;
+}
+
+div.sitel {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.footer a {
+    display: block;
+    line-height: 140%;
+}

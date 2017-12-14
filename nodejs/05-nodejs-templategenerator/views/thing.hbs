@@ -1,0 +1,13 @@
+<h1>Here my master, here's a list of your git repo's:</h1>
+
+<ul class="fa-ul">
+    {{#each this}}
+        <li id="faListItem"><i id="faItem" class="fa-li fa fa-plus"></i><span
+                id="childTable">[{{language}}] {{name}}</span>
+            <p id="hidden">{{description}}</p>
+            <!--<a href="" id="hidden"></a>-->
+            <br>
+            <a id="hidden" href="{{url}}">Git repository</a>
+        </li>
+    {{/each}}
+</ul>

@@ -1,0 +1,27 @@
+form ul li {
+    padding:10px;
+
+}
+
+form ul {
+    list-style-type: none;
+    padding:0;
+}
+form ul li input {
+    position: absolute;
+    left:150px;
+}
+
+/*div.gender input {*/
+    /*position:absolute;*/
+    /*left:150px;*/
+/*}*/
+
+/*label.geslacht2 {*/
+    /*padding-right:100px;*/
+/*}*/
+
+/*form ul li input.female {*/
+    /*padding-left:200px;*/
+/*}*/
+

@@ -1,0 +1,32 @@
+<div class="container">
+
+
+    <div class="jumbotron">
+        <h1 style="padding-left:0;">{{data.title}}</h1>
+        <img src="{{data.backgroundImage}}">
+    </div>
+
+    {{#if data.description}}
+        {{{data.description}}}
+    {{else}}
+        <h2>There doesn't seem to be a description by the author!</h2>
+    {{/if}}
+
+
+
+    <div class="authorAndDate">
+        <hr>
+        <span>Created by: <strong>{{data.author}}</strong></span><br>
+        <span>{{data.formattedDate}}</span>
+    </div>
+
+</div>
+<script src="/libraries/highlight.js"></script>
+
+<script>
+    document.querySelectorAll('pre').forEach(function (elem) {
+        hljs.highlightBlock(elem);
+    });
+</script>
+
+<script>hljs.initHighlightingOnLoad();</script>

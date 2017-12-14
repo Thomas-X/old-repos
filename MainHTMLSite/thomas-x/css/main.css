@@ -1,0 +1,190 @@
+div.logo img{
+
+    transition: .8s;
+    -webkit-animation: fadeInUp 0.95s;
+    animation: fadeInUp 0.95s;
+    margin-left:auto;
+    margin-right:auto;
+    width:118px;
+    height:19px;
+    padding-left:10px;
+    padding-bottom:5px;
+
+
+}
+
+div.wrapper {
+
+    background-color:#faf9f8;
+    width: 1000px;
+    margin: 0 auto;
+    padding:20px;
+    padding-bottom:10%;
+
+
+
+
+
+}
+
+body {
+
+    padding:70px;
+    background-color: #EDEAE6;
+}
+
+div.nav {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color:#272822;
+    padding-top:16px;
+    height: 35px;
+}
+
+
+div.welcome {
+
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    text-align:center;
+    -webkit-animation: fadeIn 0.95s;
+
+}
+
+div.projects {
+
+    font-family: "Open Sans Extrabold", cursive;
+    font-size: 34px;
+
+}
+
+
+div.navextended {
+
+    width:200px;
+    height:400px;
+    background-color: #fffdd6;
+    visibility: hidden;
+
+}
+/* RESETS TO BE SURE ERRYTHING IS FINE */
+
+@keyframes layer2Anim {
+    0%{opacity:0;}
+    17%{opacity:0;}
+    33%{opacity:1;}
+    50%{opacity:1;}
+    67%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer3Anim {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    67% {
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.slideShow {
+    position:relative;
+    margin:0 auto;
+    width:56%;
+    height:56%;
+    box-shadow: 5px 5px 22px 6px #6b6b6b;
+
+    /*box-shadow: ;*/
+
+}
+.placeHolder {
+    width: 100%;
+    visibility: hidden;
+}
+.layer1, .layer2, .layer3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.nav div.menuicon img {
+    display: inline-block;
+    padding-right:25px;
+    position:relative;
+    text-align:center;
+    float:right;
+    width: 25px;
+
+
+}
+
+.layer1 {
+    background-image: url("../img/wilkens.gif");
+}
+.layer2 {
+    background-image: url("../img/burton.gif");
+
+    animation: layer2Anim 25s infinite;
+
+}
+.layer3 {
+    background-image: url("../img/myfirstwebsite.gif");
+
+    animation: layer3Anim 25s infinite;
+
+}
+
+/* yeah I copied this, gotta understand it though. */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Credit to the internet and my brain for thinking of  all of this. */

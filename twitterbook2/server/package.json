@@ -1,0 +1,38 @@
+{
+    "name": "server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "babel-node": "babel-node --presets=flow",
+        "start": "nodemon --exec npm run babel-node ./bin/www",
+        "build": "babel ./bin/www -d build"
+    },
+    "dependencies": {
+        "body-parser": "~1.17.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.3",
+        "express": "~4.15.2",
+        "express-session": "^1.15.5",
+        "hbs": "~4.0.1",
+        "jsonwebtoken": "^8.0.0",
+        "mongoose": "^4.11.10",
+        "morgan": "~1.8.1",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0",
+        "serve-favicon": "^2.4.4",
+        "simple-stats-server": "0.0.5",
+        "socket.io": "^2.0.3"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-flow": "^6.23.0",
+        "flow-bin": "^0.54.1"
+    },
+    "babel": {
+        "presets": [
+            "flow"
+        ]
+    }
+}

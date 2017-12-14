@@ -1,0 +1,51 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "\n*The* best bot for discord \n My creator is **Thomas-X**, be nice to him.",
+  "homepage": "https://github.com/Thomas-X/nodejs#readme",
+  "author": "Thomas-X",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-X/nodejs.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-X/nodejs/issues"
+  },
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "opusscript": "0.0.3",
+    "ytdl-core": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.awt.Color;
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class My extends World {
+    private GreenfootSound sound;
+    
+    //QUINCY
+    Counter counter = new Counter();
+    //QUINCY
+    public Class() {    
+        super(800, 500, 1); 
+        sound = new GreenfootSound("music.mp3");
+
+        getBackground().setColor(Color.BLACK);
+        getBackground().fill();
+        getBackground().setColor(Color.WHITE);
+        getBackground().fillRect(0, 0, 800, 10);
+        getBackground().fillRect(0, 490, 800, 10);
+        for(int i = 0; i < 24; ++i) getBackground().fillRect(getWidth()/2 - 3, i*40 + 26, 6, 10);
+
+        
+        
+        
+
+        populateWorld();
+    }
+    
+    //Creating a method for the ball so the score can go up
+    public Counter getCounter() {
+        return counter;
+    }
+     
+
+    public void populateWorld() {
+        addObject(counter, 100, 40);
+        
+        addObject(new Player1(), 30,(getHeight()/2));
+        addObject(new Player2(), 770, (getHeight()/2));
+        addObject(new Ball(), (800/2), (getHeight()/2));
+      
+        
+        setPaintOrder(Player1.class, Player2.class, Ball.class);
+    }
+
+    public void started() {
+        //sound.playLoop();
+    }
+
+    public void stopped() {
+        //sound.stop();
+    }
+}

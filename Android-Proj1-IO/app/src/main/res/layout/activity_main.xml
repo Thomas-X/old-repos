@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="thomas_x.android_proj1_io.MainActivity">
+
+
+    <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Football Game Counter"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"/>
+
+    <!--team one-->
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="#161619"
+          android:layout_below="@+id/headerText"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+          android:id="@+id/divider1"/>
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Team 1"
+              android:textColor="@android:color/holo_green_dark"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:layout_below="@+id/divider1"
+              android:id="@+id/team1"
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Score: "
+              android:textColor="@android:color/black"
+              android:id="@+id/score1"
+              android:layout_below="@+id/team1"
+              android:layout_marginRight="10dp"
+              android:padding="20dp"
+
+    />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="0"
+              android:id="@+id/score1counter"
+              android:padding="20dp"
+              android:textColor="@android:color/black"
+              android:layout_alignBaseline="@+id/score1" android:layout_alignBottom="@+id/score1"
+              android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+              android:layout_marginLeft="43dp" android:layout_marginStart="43dp"/>
+
+    <Button android:id="@+id/buttonPlusTeamOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="plusTeamOne"
+            android:text="+"
+            android:textAllCaps="true"
+            android:layout_below="@+id/score1counter"/>
+
+    <Button android:id="@+id/buttonMinusTeamOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="minusTeamOne"
+            android:text="-"
+            android:textAllCaps="true"
+
+            android:layout_below="@+id/score1counter" android:layout_toRightOf="@+id/score1"
+            android:layout_toEndOf="@+id/score1"/>
+
+    <!--team two-->
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="#161619"
+          android:layout_below="@+id/buttonMinusTeamOne"
+          android:id="@+id/divider2"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+
+    />
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Team 2"
+              android:textColor="@android:color/holo_red_dark"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:layout_below="@+id/divider2"
+              android:id="@+id/team2"
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Score: "
+              android:textColor="@android:color/black"
+              android:id="@+id/score2"
+              android:layout_below="@+id/team2"
+              android:layout_marginRight="10dp"
+              android:padding="20dp"
+
+    />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="0"
+              android:id="@+id/score2counter"
+              android:padding="20dp"
+              android:textColor="@android:color/black"
+              android:layout_alignBaseline="@+id/score2" android:layout_alignBottom="@+id/score2"
+              android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+              android:layout_marginLeft="43dp" android:layout_marginStart="43dp"/>
+
+    <Button android:id="@+id/buttonPlusTeamTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="plusTeamTwo"
+            android:text="+"
+            android:textAllCaps="true"
+            android:layout_below="@+id/score2counter"/>
+
+    <Button android:id="@+id/buttonMinusTeamTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="minusTeamTwo"
+            android:text="-"
+            android:textAllCaps="true"
+
+            android:layout_below="@+id/score2counter" android:layout_toRightOf="@+id/score2"
+            android:layout_toEndOf="@+id/score2"/>
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonResetTeamTwo"
+            android:onClick="reset"
+            android:text="Reset"
+            android:textAllCaps="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+    />
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/foulTeamTwo"
+            android:text="Foul Team 2"
+            android:layout_toLeftOf="@+id/buttonResetTeamTwo"
+            android:layout_alignBottom="@+id/buttonResetTeamTwo"
+            android:background="@android:color/holo_red_light"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="foulTeamTwo"
+
+    />
+
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/foulTeamOne"
+            android:text="Foul Team 1"
+            android:layout_toLeftOf="@+id/foulTeamTwo"
+            android:layout_alignBottom="@+id/foulTeamTwo"
+            android:background="@android:color/holo_green_light"
+            android:padding="10dp"
+            android:onClick="foulTeamOne"
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Fouls Team 1: "
+              android:textStyle="bold"
+              android:textSize="13sp"
+              android:textAllCaps="true"
+              android:layout_above="@+id/foulTeamTwo"
+              android:layout_alignLeft="@+id/foulTeamOne"
+                android:id="@+id/foulsTextTeamOne"
+              android:textColor="@android:color/black"
+              android:layout_alignStart="@+id/foulTeamOne"/>
+
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Fouls Team 2: "
+              android:textStyle="bold"
+              android:textSize="13sp"
+              android:textAllCaps="true"
+              android:layout_above="@+id/foulTeamOne"
+              android:layout_alignLeft="@+id/foulTeamTwo"
+              android:textColor="@android:color/black"
+              android:id="@+id/foulsTextTeamTwo"
+              android:layout_alignStart="@+id/foulTeamTwo"/>
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+              android:textStyle="bold"
+              android:textSize="13sp"
+              android:textAllCaps="true"
+              android:textColor="@android:color/black"
+              android:layout_toRightOf="@+id/foulsTextTeamTwo"
+              android:layout_above="@+id/foulTeamOne"
+              android:text="0"
+              android:id="@+id/foulCounterTeamTwo"
+
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textStyle="bold"
+              android:textSize="13sp"
+              android:textAllCaps="true"
+              android:textColor="@android:color/black"
+              android:text="0"
+              android:layout_toRightOf="@+id/foulsTextTeamOne"
+              android:layout_above="@+id/foulTeamOne"
+              android:id="@+id/foulCounterTeamOne"
+
+    />
+</RelativeLayout>

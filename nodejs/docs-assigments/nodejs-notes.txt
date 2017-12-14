@@ -1,0 +1,31 @@
+restapi notes:
+
+-node.js, express, mongodb
+
+-api is only serverside, has to be built only once
+and multiple front side applications can be built
+
+-rest = representasial state transfer
+
+
+plan of api:
+
+-questions (object)
+Create
+Read
+
+-answers (object)
+Create
+Read
+Update
+Delete
+Vote
+
+routes of api:
+
+-questions:
+/questions/:id
+
+-vote up or down:
+/questions/:questionID/ansers/:answerID/vote-up
+/questions/:questionID/ansers/:answerID/vote-down

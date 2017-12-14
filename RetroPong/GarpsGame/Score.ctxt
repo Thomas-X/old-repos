@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Score
+comment1.params=
+comment1.target=void\ act()
+comment2.params=image\ tekst
+comment2.target=java.awt.Dimension\ getTextDimensions(greenfoot.GreenfootImage,\ java.lang.String)
+numComments=3

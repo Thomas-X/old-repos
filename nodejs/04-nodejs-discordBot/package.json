@@ -1,0 +1,31 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "a discord bot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "googleapis": "^18.0.0",
+    "opusscript": "0.0.3",
+    "request": "^2.81.0",
+    "ytdl-core": "^0.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-X/nodejs.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Thomas-X",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-X/nodejs/issues"
+  },
+  "homepage": "https://github.com/Thomas-X/nodejs#readme"
+}

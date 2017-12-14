@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/custom.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" id="navbar">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Northern lights</a>
+        </div>
+
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="webshop.html">Webshop</a></li>
+            <li class="active"><a href="winkelwagentje.html">Winkelwagentje</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="jumbotron">
+    <div class="container">
+
+        <h1 id="headerJumbotron">Northern Lights</h1>
+        <p id="subTextJumbotron">Northern lights art & paintings</p>
+    </div>
+
+</div>
+
+<div class="container">
+
+    <!---->
+
+    <div class="flex-container1">
+
+        <img src="img/nl5.jpg" id="skatesCart">
+
+        <div class="flex-item">
+
+            <h1>Innovativ</h1>
+            <p>Price: &euro; 679,-</p>
+
+        </div>
+    </div>
+
+    <div class="cartContainer">
+        <div class="flex-item">
+
+            <p>Aantal:</p>
+            <input class="form-control" type="number" id="input1">
+
+        </div>
+
+        <div class="flex-item">
+
+            <p>Subtotaal:</p>
+            <span id="item1">0</span>
+
+        </div>
+
+    </div>
+
+    <!---->
+
+    <div class="flex-container1">
+
+        <img src="img/nl6.jpg" id="skatesCart">
+
+        <div class="flex-item">
+
+            <h1>Arene vi har foran oss</h1>
+            <p>Price: &euro;1045,-</p>
+
+        </div>
+    </div>
+
+    <div class="cartContainer">
+        <div class="flex-item">
+
+            <p>Aantal:</p>
+            <input class="form-control" type="number" id="input2">
+
+        </div>
+
+        <div class="flex-item">
+
+            <p>Subtotaal:</p>
+            <span id="item2">0</span>
+
+        </div>
+
+    </div>
+
+    <!---->
+
+    <div class="flex-container1">
+
+        <img src="img/nl9.jpg" id="skatesCart">
+
+        <div class="flex-item">
+
+            <h1>Kjerneoppgave</h1>
+            <p>Price: &euro; 647,-</p>
+
+        </div>
+    </div>
+
+    <div class="cartContainer">
+        <div class="flex-item">
+
+            <p>Aantal:</p>
+            <input class="form-control" type="number" id="input3">
+
+        </div>
+
+        <div class="flex-item">
+
+            <p>Subtotaal:</p>
+            <span id="item3">0</span>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <input type="checkbox" id="safetyPackaging">
+    <p id="safetyP">Laten bezorgen in veiligheidsverpakking (&euro;122,25 per schilderij)</p> <br>
+    <input type="checkbox" id="quickDelivery">
+    <p id="quickP">Spoedbezorging (&euro;25,00 voor het totale pakket)</p>
+
+
+    <hr>
+    <div class="radioContainer">
+        <input type="radio" name="radio" id="radio1">
+        <img id="imgCart" src="img/fram1.png">
+        <p id="textFrame">Eenvoudig frame (&euro;12,50)</p>
+    </div>
+    <div class="radioContainer">
+        <input type="radio" name="radio" id="radio2">
+        <img  id="imgCart" src="img/frame2.jpg">
+        <p id="textFrame">Elegant frame (&euro;14,95)</p>
+    </div>
+    <div class="radioContainer">
+        <input type="radio" name="radio" id="radio3">
+        <img id="imgCart" src="img/frame3.png">
+        <p id="textFrame">Sjiek de Friemel frame (&euro;19,95)</p>
+    </div>
+    <div class="radioContainer">
+        <input type="radio" name="radio" id="radio4">
+        <img id="imgCart" src="img/frame4.png">
+        <p id="textFrame">Trump frame (&euro;21,95)</p>
+    </div>
+
+
+
+    <!--<input type="radio" id="radio1"><label for="radio1">Met veters (+1,25)</label>-->
+    <!--<input type="radio" id="radio2"><label for="radio1">Met beschermers (+2,35)</label>-->
+
+    <div class="flex-container">
+    <button onclick="totalCalc()">Bereken totaal</button>
+    <p id="totalCart">Totaal: </p>
+    </div>
+
+
+    <hr>
+
+    <!--footer-->
+    <h3 id="footerFloat">© 2017 Company, Inc</h3>
+
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+
+<!--;)-->
+<script src="js.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>

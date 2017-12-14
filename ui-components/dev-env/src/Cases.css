@@ -1,0 +1,34 @@
+.App {
+  height: 100%;
+  width: 100%; }
+
+.masonry {
+  margin: 20px auto 0; }
+
+.card {
+  width: 296px;
+  box-shadow: rgba(0, 0, 0, 0.14902) 0px 2px 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  cursor: pointer; }
+
+.card > h2 {
+  font-size: 1.5em;
+  color: white;
+  padding: 20px;
+  width: 296px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  text-overflow: ellipsis;
+  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.49) 38%, rgba(0, 0, 0, 0.61) 47%, rgba(0, 0, 0, 0.65) 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.49) 38%, rgba(0, 0, 0, 0.61) 47%, rgba(0, 0, 0, 0.65) 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.49) 38%, rgba(0, 0, 0, 0.61) 47%, rgba(0, 0, 0, 0.65) 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+  /* IE6-9 */ }
+
+/*# sourceMappingURL=Cases.css.map */

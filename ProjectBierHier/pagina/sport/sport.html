@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sport</title>
+    <link rel="stylesheet" type="text/css" href="css/sport.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+<div class="nav">
+    <!--MADE BY THOMAS ZWARTS & BARRY WILLEMS-->
+    <div id="imganimation">
+        <img id="img" src="../../img/menu.png" alt="plaatje" class="menuicon" onclick="openorcloseNav()"/>
+    </div>
+    <script>
+        var toggle = 1;
+
+        function openorcloseNav() {
+            if (toggle == 1) {
+
+                document.getElementById("sideNav").style.width = "250px";
+                toggle = 0;
+            }
+            else {
+
+                document.getElementById("sideNav").style.width = "0";
+
+
+                toggle = 1;
+            }
+        }
+
+
+    </script>
+
+    <!--Logo dingen, tekst enzo -->
+
+    <a class="redirect" href="../../index.html">
+        <img class="logo" alt="alt" src="../../img/beertitle.png"
+             alt="logo should be here"/>
+    </a>
+
+    <!--document.getElementById('imganimation').setAttribute("class", "style1")-->
+    <a href="../../index.html" class="logotext">BIER HIER</a>
+
+
+    <!--SIDE NAV-->
+    <div id="sideNav" class="sidenav">
+        <a href="../contact/contact.html" class="contact">CONTACT</a>
+        <a href="../overons/overons.html" class="overons">OVER ONS</a>
+        <a href="../recepten/recepten.html" class="recepten">RECEPTEN</a>
+        <a href="../sport/sport.html" class="sport">SPORT</a>
+        <a href="../concerten/concerten.html" class="concerten">CONCERTEN</a>
+    </div>
+
+</div>
+<!--======================================================================================================-->
+
+<div class="sportbigcontainer">
+    <img src="img/sportbg.jpg" alt="sport">
+    <a class="sportbigtext">Sport Pagina.</a>
+</div>
+
+<div class="balk">
+    <a class="tekstbalk">Kies hier onder een sport.</a>
+    <!-- Waarom recepten?, niemand weet het -->
+</div>
+
+
+<div class="wrapper">
+    <section class="plaatjes">
+        <div class="section1">
+            <a href="sporten/basketbal.html"><img class="sport1" alt="basketbal" src="img/basketbal.jpg"></a>
+            <a href="sporten/fietsen.html"><img class="sport1" alt="fietsen" src="img/fietsen.jpg"></a>
+            <a href="sporten/hardlopen.html"><img class="sport1" alt="hardlopen" src="img/hardlopen.jpg"></a>
+        </div>
+        <div class="section2">
+            <a href="sporten/hockey.html"><img class="sport1" alt="hockey" src="img/hockey.jpg"></a>
+            <a href="sporten/kano.html"><img class="sport1" alt="kano" src="img/kano.jpg"></a>
+            <a href="sporten/tafeltennis.html"><img class="sport1" alt="tafeltennis" src="img/tafeltennis.jpg"></a>
+        </div>
+        <div class="section3">
+            <a href="sporten/tennis.html"><img class="sport1" alt="tennis" src="img/tennis.jpg"></a>
+            <a href="sporten/voetbal.html"><img class="sport1" alt="voetbal" src="img/voetbal.jpg"></a>
+            <a href="sporten/zwemmen.html"><img class="sport1" alt="zwemmen" src="img/zwemmen.jpg"></a>
+        </div>
+    </section>
+
+    <section class="articles">
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet mi rhoncus, rutrum nibh eu, interdum
+            erat. Aliquam lorem nunc, tincidunt a quam quis, aliquam tincidunt felis. In arcu nunc, placerat at blandit
+            nec, rhoncus id eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos. Nullam in ultrices nibh. Proin id libero in leo luctus scelerisque eget at purus. Ut sagittis
+            facilisis purus id dignissim. Pellentesque enim nibh, elementum eu laoreet quis, feugiat ut est. Curabitur
+            auctor sodales nisl ut pellentesque.
+        </article>
+        <article>
+            Aenean lectus neque, auctor id sodales quis, auctor sit amet leo. Cras id feugiat urna. Ut consequat orci ut
+            urna finibus, non volutpat diam auctor. Integer ullamcorper efficitur orci, at scelerisque est consectetur
+            et. Donec mollis dictum nibh, laoreet aliquam massa porttitor nec. Suspendisse potenti. Integer luctus justo
+            metus, vel eleifend sem tincidunt vel. Proin dapibus efficitur sodales. Integer a accumsan turpis, vel
+            elementum leo. Ut non turpis massa.
+        </article>
+        <article>
+            Phasellus luctus, risus quis tincidunt sagittis, elit sapien elementum diam, in dictum orci ex vitae mi.
+            Phasellus vestibulum consectetur orci dapibus placerat. Nunc sit amet ultricies justo. Fusce augue turpis,
+            pulvinar eu elementum ut, egestas maximus diam. Integer nec nisi hendrerit, aliquet nunc vitae, consequat
+            diam. Nullam id nibh a lectus efficitur aliquam. Praesent eget suscipit metus.
+        </article>
+    </section>
+
+</div>
+
+<footer>
+    <div class="sitel">
+        Site links
+    </div>
+    <div class="footer">
+        <a href="../../index.html">Home Page</a>
+        <a href="../contact/contact.html">Contact</a>
+        <a href="../overons/overons.html">Over ons</a>
+        <a href="../recepten/recepten.html">Recepten</a>
+        <a href="../sport/sport.html">Sport</a>
+        Copyright &copy; ROC Flevoland 2016
+    </div>
+
+</footer>
+
+</body>
+</html>

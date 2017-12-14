@@ -1,0 +1,77 @@
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                Verlanglijstjes
+            </a>
+        </div>
+        {{#if loggedIn}}
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Hi, {{username}}</a></li>
+                <li><a id="stupidLogin" href="/logout">Logout</a></li>
+            </ul>
+        {{else}}
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a  id="stupidLogin" href="/login">Login</a>
+                </li>
+            </ul>
+        {{/if}}
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1>Het verlanglijstje van {{wishlist.author}}</h1>
+</div>
+
+<hr>
+
+
+{{#if empty}}
+
+    <h3>Er zijn nog geen dingen die gehaald worden voor {{wishlist.author}}. :(<br>Wees aardig en voeg er een toe!</h3>
+
+{{else}}
+    <h3>Dingen die al gehaald worden voor {{wishlist.author}}:</h3>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Cadeau naam</th>
+            <th>Prijs +/-</th>
+            <th>Koper van het cadeau</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each wishlist.items}}
+            <tr>
+                <td>{{this.itemName}}</td>
+                <td>€{{this.price}},-</td>
+                <td>{{this.buyer}}</td>
+
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+{{/if}}
+
+
+<hr>
+
+<form action="/addWishlistItem/{{wishlist._id}}" method="post">
+    <div class="form-group">
+        <label for="cadeauInput">Naam van het cadeau</label>
+        <input name="itemName" type="text" class="form-control" id="cadeauInput" placeholder="Naam van het cadeau">
+    </div>
+    <div class="form-group">
+        <label for="prijsInput">Prijs</label>
+        <input name="price" type="number" class="form-control" id="prijsInput" placeholder="Prijs van het cadeau">
+    </div>
+
+    <h4 class="redText">Je kan je cadeau niet verwijderen dus denk goed na als je het toe voegt!</h4>
+    <h6><br>
+    <i class="redText">(of vraag aan Thomas om het te verwijdereren)</i>
+    </h6>
+    <button type="submit" class="btn btn-primary">Voeg toe</button>
+</form>
+
+

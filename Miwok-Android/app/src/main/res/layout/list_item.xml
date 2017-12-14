@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/tan_background"
+              >
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image"
+
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/text_container"
+                  android:orientation="vertical"
+                  android:paddingLeft="16dp"
+                  android:minHeight="@dimen/list_item_height"
+                  android:background="@color/category_numbers"
+                  android:layout_toRightOf="@+id/image"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:gravity="bottom"
+                  android:id="@+id/miwok_text_view"
+                  android:textAppearance="?android:textAppearanceMedium"
+                  android:textStyle="bold"
+                  android:textColor="@android:color/white"
+        />
+        <TextView
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:id="@+id/default_text_view"
+                android:textColor="@android:color/white"
+
+        />
+    </LinearLayout>
+        <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playpausebutton"
+                android:src="@drawable/play"
+                android:layout_weight="1"/>
+</RelativeLayout>
